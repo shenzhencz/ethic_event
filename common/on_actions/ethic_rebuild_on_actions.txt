@@ -1,0 +1,26 @@
+
+#每月检测，范围国家
+on_monthly_pulse_country = {
+	events = {
+		ethic_easter.301
+		ethic_easter.302
+		ethic_easter.303
+		ethic_easter.304
+	}
+}
+#每两年一次的触发器，范围国家
+on_bi_yearly_pulse_country = {
+	events = {
+		ethic_easter.0
+	}
+}
+
+# 尝试为具有自定义外交的国家打开外交视图时触发。
+# Country scope
+# This = target country (player)
+# From = source country
+on_custom_diplomacy = {
+	events = {
+		ethic_easter.100
+	}
+}
