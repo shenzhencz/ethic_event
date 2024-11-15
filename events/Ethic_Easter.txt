@@ -745,7 +745,10 @@ country_event = {
 		name = ethic_easter.202.c
 		trigger = {
 			OR = {
-				is_true_scientific_socialism = no
+				NOR={
+					is_true_scientific_socialism = yes
+					has_valid_civic = civic_machine_liberator
+				}
 				is_subject = yes
 			}
 		}
@@ -755,7 +758,10 @@ country_event = {
 	option = {
 		name = ethic_easter.202.c.soc
 		trigger = {
-			is_true_scientific_socialism = yes
+			OR={
+				is_true_scientific_socialism = yes
+				has_valid_civic = civic_machine_liberator
+			}
 			is_subject = no
 		}
 		response_text = ethic_easter.202.c.soc.response
@@ -764,14 +770,39 @@ country_event = {
 	option = {
 		trigger = {
 			OR = {
-				is_true_scientific_socialism = no
+				NOR={
+					is_true_scientific_socialism = yes
+					has_valid_civic = civic_machine_liberator
+				}
 				is_subject = yes
 			}
 		}
 		name = ethic_easter.202.d
 		hidden_effect = {
 			capital_scope = {
-				red_dowm_gift = yes
+				create_fleet = {
+					name = "HUMAN4_FLEET_Peacefleet"
+					effect = {
+						while = {
+							count = 1
+							create_fallen_empire_titan = yes
+						}
+						while = {
+							count = 3
+							create_fallen_empire_large_ship = yes
+						}
+						while = {
+							count = 7
+							create_fallen_empire_small_ship = yes
+						}
+						set_location = {
+							target = event_target:huazhang_rest_area.capital_star
+							distance = 45
+							angle = random
+						}
+						set_owner = event_target:huazhang_rest_area
+					}
+				}
 			}
 			event_target:red_dawn_enemy = {
 				red_dowm_redux = yes
@@ -781,13 +812,38 @@ country_event = {
 	}
 	option = {
 		trigger = {
-			is_true_scientific_socialism = yes
+			OR={
+				is_true_scientific_socialism = yes
+				has_valid_civic = civic_machine_liberator
+			}
 			is_subject = no
 		}
 		name = ethic_easter.202.d.soc1
 		hidden_effect = {
 			capital_scope = {
-				red_dowm_gift = yes
+				create_fleet = {
+					name = "HUMAN4_FLEET_Peacefleet"
+					effect = {
+						while = {
+							count = 1
+							create_fallen_empire_titan = yes
+						}
+						while = {
+							count = 3
+							create_fallen_empire_large_ship = yes
+						}
+						while = {
+							count = 7
+							create_fallen_empire_small_ship = yes
+						}
+						set_location = {
+							target = event_target:huazhang_rest_area.capital_star
+							distance = 45
+							angle = random
+						}
+						set_owner = event_target:huazhang_rest_area
+					}
+				}
 			}
 			if = {
 				limit = { has_federation = yes }
@@ -827,13 +883,38 @@ country_event = {
 	}
 	option = {
 		trigger = {
-			is_true_scientific_socialism = yes
+			OR={
+				is_true_scientific_socialism = yes
+				has_valid_civic = civic_machine_liberator
+			}
 			is_subject = no
 		}
 		name = ethic_easter.202.d.soc2
 		hidden_effect = {
 			capital_scope = {
-				red_dowm_gift = yes
+				create_fleet = {
+					name = "HUMAN4_FLEET_Peacefleet"
+					effect = {
+						while = {
+							count = 1
+							create_fallen_empire_titan = yes
+						}
+						while = {
+							count = 3
+							create_fallen_empire_large_ship = yes
+						}
+						while = {
+							count = 7
+							create_fallen_empire_small_ship = yes
+						}
+						set_location = {
+							target = event_target:huazhang_rest_area.capital_star
+							distance = 45
+							angle = random
+						}
+						set_owner = event_target:huazhang_rest_area
+					}
+				}
 			}
 			event_target:red_dawn_enemy = {
 				red_dowm_redux = yes
