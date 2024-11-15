@@ -699,7 +699,7 @@ country_event = {
 					delete_fleet = this
 				}
 			}
-			save_global_event_target_as = huazhang_rest_area
+			save_global_event_target_as = huazhang_rest_are2a
 		}
 	}
 }
