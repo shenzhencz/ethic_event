@@ -153,6 +153,7 @@ leader_trait_wangfeng_ideology = {
 		potential = {
 			NAND = {
 				exists = owner
+
 				owner = {
 					is_at_war = yes
 				}
@@ -165,6 +166,7 @@ leader_trait_wangfeng_ideology = {
 	triggered_modifier = {
 		potential = {
 			exists = owner
+
 			owner = {
 				is_at_war = yes
 			}
@@ -216,6 +218,7 @@ leader_trait_wangfeng_produce = {
 		potential = {
 			NAND = {
 				exists = owner
+
 				owner = {
 					country_uses_food = no
 				}
@@ -229,6 +232,7 @@ leader_trait_wangfeng_produce = {
 	triggered_modifier = {
 		potential = {
 			exists = owner
+
 			owner = {
 				country_uses_food = no
 			}

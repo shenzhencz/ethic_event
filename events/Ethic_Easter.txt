@@ -376,7 +376,24 @@ country_event = {
 				country_event = { id = first_contact.1061 days = 1 }
 			}
 			add_modifier = { modifier = "red_dawn_database_boot" days = -1 }
-			country_event = { id = ethic_easter.300 days = 1800 random = 1800 }
+			if = {
+				limit = {
+					owner = {
+						or = {
+							and = {
+								has_ethic = ethic_fanatic_socialism
+								NOR = {
+									has_ethic = ethic_fanatic_authoritarian
+									has_valid_civic = civic_characteristic_socialism
+									has_valid_civic = civic_characteristic_socialism_pioneer
+								}
+							}
+							has_valid_civic = civic_machine_liberator
+						}
+					}
+				}
+				country_event = { id = ethic_easter.300 days = 1800 random = 1800 }
+			}
 			create_country = {
 				name = "NAME_red_dawn_database"
 				type = red_dawn
@@ -442,7 +459,7 @@ country_event = {
 						trait = leader_trait_red_dawn
 						trait = leader_trait_huazhang
 						trait = trait_ruler_home_in_the_sky
-						trait = leader_trait_collective_wisdom_3
+						trait = leader_trait_collective_wisdom
 						trait = leader_trait_towel
 					}
 					gender = indeterminable
@@ -883,7 +900,7 @@ country_event = { # 王枫
 			CATCH_PHRASE = wangfeng1_catch_phrase
 		}
 		last_created_leader = { #4
-			add_trait = subclass_admiral_tactician
+			add_trait = subclass_commander_admiral
 			add_trait = leader_trait_red_dawn
 			add_trait = leader_trait_wangfeng_fleet
 			add_trait = leader_trait_wangfeng_ideology
