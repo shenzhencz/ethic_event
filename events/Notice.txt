@@ -11,8 +11,10 @@ country_event = {
     option = {
         name = ethic_event_notice.0.b
         custom_tooltip = ethic_event_notice.0.b.news.tooltip
-        country_event={
-            id= ethic_notice.2
+        hidden_effect = {
+            country_event = {
+                id = ethic_notice.2
+            }
         }
     }
 }

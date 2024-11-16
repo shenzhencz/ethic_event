@@ -5,6 +5,7 @@
  ethic_event_notice.0.a:0 "关闭"
  ethic_event_notice.0.b:0 "让我看看作者怎么骂设计这些领袖的人的！"
  ethic_event_notice.0.b.news.tooltip:0 "（原作者原话）$ethic_notice.1.news.tooltip$"
+ edict_eth_notice:0 "无限思潮菜单恢复：显示提示"
 
  red_dawn:0 "§R赤色黎明§!"
  trait_red_dawn:0 "§R赤色黎明§!"
