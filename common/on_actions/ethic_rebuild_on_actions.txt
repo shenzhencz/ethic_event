@@ -9,7 +9,8 @@ on_monthly_pulse_country = {
 	}
 }
 #每两年一次的触发器，范围国家
-on_bi_yearly_pulse_country = {
+#on_bi_yearly_pulse_country = {
+on_monthly_pulse_country = {
 	events = {
 		ethic_easter.0
 	}
@@ -22,5 +23,10 @@ on_bi_yearly_pulse_country = {
 on_custom_diplomacy = {
 	events = {
 		ethic_easter.100
+	}
+}
+on_game_start = {
+	events = {
+		ethic_event_notice.0
 	}
 }

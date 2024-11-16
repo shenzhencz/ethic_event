@@ -580,8 +580,46 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = ethic_easter.9
+	is_triggered_only = yes
+	title = ethic_easter.9.name
+	desc = ethic_easter.9.desc
+	option = {
+		name = ethic_easter.9.a
+		hidden_effect = {
+			every_country = {
+				limit = {
+					is_fallen_empire = yes
+					has_ethic = ethic_fanatic_materialist
+				}
+				save_global_event_target_as = FallenEmpireTaskOrigin
+			}
+			country_event = {
+				id = ethic_easter.10
+			}
+		}
+	}
+	option = {
+		name = ethic_easter.9.b
+	}
+}
+country_event = {
+	id = ethic_easter.10
+	is_triggered_only = yes
+	hide_window = yes
+	immediate = {
+		event_target:huazhang={
+			save_global_event_target_as = FallenEmpireScientistTarget
+		}
+		root= {
+			country_event = {
+				id = fallen_empires_tasks.22
+			}
+		}
+	}
 
-
+}
 #赤色黎明数据库
 country_event = {
 	id = ethic_easter.100
@@ -701,9 +739,12 @@ country_event = {
 		custom_tooltip = fallen_empire_happy_tooltip
 
 		hidden_effect = {
+			this ={
+				country_event = { id = ethic_easter.201 days = 3600 random = 3600 }
+			}
 			event_target:FallenEmpireTaskOrigin = {
 				add_opinion_modifier = { who = root modifier = opinion_accepted_fallen_empire_request }
-				country_event = { id = ethic_easter.201 days = 3600 random = 3600 }
+
 				save_global_event_target_as = red_dawn_enemy
 			}
 			event_target:FallenEmpireScientistTarget = {

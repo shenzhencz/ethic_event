@@ -1,5 +1,10 @@
 ﻿l_simp_chinese:
  #PRESCRIPTED_ruler_name_humans4: "华章"
+ ethic_event_notice.0.name:0 "Mod提示"
+ ethic_event_notice.0.desc:0 "此Mod复现了mod更多思潮与国策：无限（Ethics and Civics Infinity）中被移除的两个领袖。\n\n这两个领袖加上给的舰船在开局是一个非常大的帮助，作者便根据官方发布的老版本恢复了相关事件和设定。\n\n如果需要体验堕落相关事件，开控制台输入ethic_easter.9（需要获得第一个科学家领袖，以及一个$ethic_fanatic_materialist$堕落帝国）\nshenzhencz\n2024-11-16"
+ ethic_event_notice.0.a:0 "关闭"
+ ethic_event_notice.0.b:0 "让我看看作者怎么骂设计这些领袖的人的！"
+ ethic_event_notice.0.b.news.tooltip:0 "（原作者原话）$ethic_notice.1.news.tooltip$"
 
  red_dawn:0 "§R赤色黎明§!"
  trait_red_dawn:0 "§R赤色黎明§!"
@@ -89,7 +94,11 @@
  ethic_easter.4.name:0 "信号消失"
  ethic_easter.4.desc:0 "外星飞船突然间消失了，我们的探查雷达加大功率扫描，但最终一无所获。"
  ethic_easter.4.a:0 "狡猾的外星人"
- 
+
+ ethic_easter.9.name:0 "事件测试"
+ ethic_easter.9.desc:0 "一堕落帝国将会要求你交出华章，五到十年后，它将在华章的带领下左转，并向其他堕落宣战。\n\n社会主义国家可以配合新成立的§H$NAME_new_red_dawn$§!向堕落宣战，也可以选择保持中立。\n\n无论什么国家，都会获得一个强大的舰队。"
+ ethic_easter.9.a:0 "开始吧。"
+ ethic_easter.9.b:0 "立即停止！"
 
  ethic_easter.100.name:0 "赤色黎明数据库"
  ethic_easter.100.desc:0 "§H<正在加载主界面...>§!\n\n权限认证通过，欢迎你们，年轻的文明。\n\n§L*操作面板下方贴着一张字迹工整的便条：“我之前试着修维度引擎的时候好像不小心把输出模块弄坏了，流量有限，你们凑合着用吧。OVO”*§!"
