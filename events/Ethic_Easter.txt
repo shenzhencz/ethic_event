@@ -699,7 +699,7 @@ country_event = {
 					delete_fleet = this
 				}
 			}
-			save_global_event_target_as = huazhang_rest_are2a
+			save_global_event_target_as = huazhang_rest_area
 		}
 	}
 }
@@ -780,29 +780,7 @@ country_event = {
 		name = ethic_easter.202.d
 		hidden_effect = {
 			capital_scope = {
-				create_fleet = {
-					name = "HUMAN4_FLEET_Peacefleet"
-					effect = {
-						while = {
-							count = 1
-							create_fallen_empire_titan = yes
-						}
-						while = {
-							count = 3
-							create_fallen_empire_large_ship = yes
-						}
-						while = {
-							count = 7
-							create_fallen_empire_small_ship = yes
-						}
-						set_location = {
-							target = event_target:huazhang_rest_area.capital_star
-							distance = 45
-							angle = random
-						}
-						set_owner = event_target:huazhang_rest_area
-					}
-				}
+				red_dowm_gift = yes
 			}
 			event_target:red_dawn_enemy = {
 				red_dowm_redux = yes
@@ -821,29 +799,7 @@ country_event = {
 		name = ethic_easter.202.d.soc1
 		hidden_effect = {
 			capital_scope = {
-				create_fleet = {
-					name = "HUMAN4_FLEET_Peacefleet"
-					effect = {
-						while = {
-							count = 1
-							create_fallen_empire_titan = yes
-						}
-						while = {
-							count = 3
-							create_fallen_empire_large_ship = yes
-						}
-						while = {
-							count = 7
-							create_fallen_empire_small_ship = yes
-						}
-						set_location = {
-							target = event_target:huazhang_rest_area.capital_star
-							distance = 45
-							angle = random
-						}
-						set_owner = event_target:huazhang_rest_area
-					}
-				}
+				red_dowm_gift = yes
 			}
 			if = {
 				limit = { has_federation = yes }
@@ -892,29 +848,7 @@ country_event = {
 		name = ethic_easter.202.d.soc2
 		hidden_effect = {
 			capital_scope = {
-				create_fleet = {
-					name = "HUMAN4_FLEET_Peacefleet"
-					effect = {
-						while = {
-							count = 1
-							create_fallen_empire_titan = yes
-						}
-						while = {
-							count = 3
-							create_fallen_empire_large_ship = yes
-						}
-						while = {
-							count = 7
-							create_fallen_empire_small_ship = yes
-						}
-						set_location = {
-							target = event_target:huazhang_rest_area.capital_star
-							distance = 45
-							angle = random
-						}
-						set_owner = event_target:huazhang_rest_area
-					}
-				}
+				red_dowm_gift = yes
 			}
 			event_target:red_dawn_enemy = {
 				red_dowm_redux = yes

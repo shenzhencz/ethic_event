@@ -1,0 +1,14 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_evt_hongan"
+        texturefile = "gfx/event_pictures/hongan.dds"
+        masking_texture = "gfx/interface/situation_log/event_mask.dds"
+        alwaystransparent = yes
+    }
+    spriteType = {
+        name = "GFX_evt_red_dawn_fleet"
+        texturefile = "gfx/event_pictures/red_dawn_fleet.dds"
+        masking_texture = "gfx/interface/situation_log/event_mask.dds"
+        alwaystransparent = yes
+    }
+}

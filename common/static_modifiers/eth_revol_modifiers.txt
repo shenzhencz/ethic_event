@@ -1,0 +1,10 @@
+modifier_wangfeng = {
+    pop_ethic_socialism_attraction_mult = 0.25
+    pop_ethic_militarist_attraction_mult = 0.25
+}
+
+modifier_wangfeng_enemy = {
+    pop_ethic_socialism_attraction_mult = 0.5
+    pop_ethic_militarist_attraction_mult = 0.5
+    pop_ethics_shift_speed_mult = 1
+}
