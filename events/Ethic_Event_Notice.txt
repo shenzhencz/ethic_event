@@ -3,6 +3,7 @@ country_event = {
     id = ethic_event_notice.0
     title= ethic_event_notice.0.name
     desc= ethic_event_notice.0.desc
+    picture = GFX_author_icon
     is_triggered_only = yes
     option = {
         name = ethic_event_notice.0.a

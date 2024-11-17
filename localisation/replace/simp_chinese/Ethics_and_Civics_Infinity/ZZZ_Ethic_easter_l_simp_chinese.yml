@@ -1,18 +1,20 @@
 ﻿l_simp_chinese:
- #PRESCRIPTED_ruler_name_humans4: "华章"
+ PRESCRIPTED_ruler_name_humans4: "华章"
+ PRESCRIPTED_ruler_name_humans5: "王明"
  ethic_event_notice.0.name:0 "Mod提示"
- ethic_event_notice.0.desc:0 "此Mod复现了mod更多思潮与国策：无限（Ethics and Civics Infinity）中被移除的两个领袖。\n\n这两个领袖加上给的舰船在开局是一个非常大的帮助，作者便根据官方发布的老版本恢复了相关事件和设定。\n\n如果需要体验堕落相关事件，开控制台输入ethic_easter.9（需要获得第一个科学家领袖，以及一个$ethic_fanatic_materialist$堕落帝国）\nshenzhencz\n2024-11-16"
+ ethic_event_notice.0.desc:0 "此Mod复现了mod更多思潮与国策：无限（Ethics and Civics Infinity）中被移除的两个领袖。\n\n这两个领袖加上给的舰船在开局是一个非常大的帮助，作者便根据官方发布的老版本恢复了相关事件和设定。\n\n如果需要体验堕落相关事件，开控制台输入ethic_easter.9（需要获得第一个科学家领袖，以及一个$ethic_fanatic_materialist$堕落帝国）\n未来可能还会增加一个代表作者的领袖哦！\nshenzhencz\n2024-11-16"
  ethic_event_notice.0.a:0 "关闭"
- ethic_event_notice.0.b:0 "让我看看作者怎么骂设计这些领袖的人的！"
+ ethic_event_notice.0.b:0 "让我康康原作者怎么骂设计这些领袖的人的！"
  ethic_event_notice.0.b.news.tooltip:0 "（原作者原话）$ethic_notice.1.news.tooltip$"
  edict_eth_notice:0 "无限思潮菜单恢复：显示提示"
+ edict_eth_notice2:0 "触发堕落事件"
 
  red_dawn:0 "§R赤色黎明§!"
  trait_red_dawn:0 "§R赤色黎明§!"
  trait_red_dawn_desc:0 "一种已经把共产主义的观念植入集体潜意识的物种，这是它们进入空想时代后唯一的信念。"
 
  NAME_red_dawn:0 "赤色黎明"
- NAME_new_red_dawn:0 "新赤色黎明文明"
+ NAME_new_red_dawn:0 "新赤色黎明人民共和国"
  NAME_red_dawn_database:0 "赤色黎明数据库"
 
  leader_trait_huazhang:0 "临时政委"
@@ -100,6 +102,8 @@
  ethic_easter.9.desc:0 "一堕落帝国将会要求你交出华章，五到十年后，它将在华章的带领下左转，并向其他堕落宣战。\n\n社会主义国家可以配合新成立的§H$NAME_new_red_dawn$§!向堕落宣战，也可以选择保持中立。\n\n无论什么国家，都会获得一个强大的舰队。"
  ethic_easter.9.a:0 "开始吧。"
  ethic_easter.9.b:0 "立即停止！"
+ ethic_easter.9.c:0 "不符合要求：存在$ethic_fanatic_materialist$堕落帝国"
+ ethic_easter.9.d:0 "不符合要求：存在科学家$PRESCRIPTED_ruler_name_humans4$"
 
  ethic_easter.100.name:0 "赤色黎明数据库"
  ethic_easter.100.desc:0 "§H<正在加载主界面...>§!\n\n权限认证通过，欢迎你们，年轻的文明。\n\n§L*操作面板下方贴着一张字迹工整的便条：“我之前试着修维度引擎的时候好像不小心把输出模块弄坏了，流量有限，你们凑合着用吧。OVO”*§!"
@@ -110,9 +114,23 @@
  ethic_easter.100.e:0 "暂停数据调取"
  ethic_easter.100.f:0 "关闭界面"
  
+ ethic_easter.150.name:0 "发现可疑人物"
+ ethic_easter.150.desc:0 "在$PRESCRIPTED_ruler_name_humans4$检查她的$NAME_Laurel$时，她发现了一个昏迷的可疑人物，其背上有一个疑似使用了跃迁引擎的推动装置，推断是在跃迁时意外跃迁到了她的飞船上"
+ ethic_easter.150.a:0 "$PRESCRIPTED_ruler_name_humans4$，把他送回[Root.Capital.Getname]上，然后叫醒他。"
+
+ ethic_easter.151.name:0 "[Root.Capital.Getname]"
+ ethic_easter.151.desc:0 "你好，[Root.GetSpeciesName]的同志们，我是$PRESCRIPTED_ruler_name_humans5$，来自$NAME_red_dawn$曾经的母星——中央枢纽，隶属于$NAME_red_dawn$的工人研究合作社，是一名研究员。"
+ ethic_easter.151.a:0 "$PRESCRIPTED_ruler_name_humans4$，你认识他吗？"
+ ethic_easter.151.a.response:0 "<$PRESCRIPTED_ruler_name_humans4$>\n\n我查一下数据记录……$PRESCRIPTED_ruler_name_humans5$，$NAME_red_dawn$工人研究合作社$JUMP_DRIVE_1$研究办公室研究员。中央对他的评价是这样的：\n\n“王明同志本身虽然并不擅长科研，但是他有强大的科研组织能力，而且非常具有灵感，经常会给研究工作带来许多帮助。而他优秀的组织才能，甚至可以统治一个国家。”\n\n他曾经参与过跃迁引擎的研究工作，因此对于引擎应该有着一定的了解。\n\n<$PRESCRIPTED_ruler_name_humans5$>\n\n$PRESCRIPTED_ruler_name_humans4$同志，没这么夸张，我只是一个小科学家而已"
+ ethic_easter.151.b:0 "$PRESCRIPTED_ruler_name_humans5$，你怎么上的$PRESCRIPTED_ruler_name_humans5$的$NAME_Laurel$？"
+ ethic_easter.151.b.response:0 "我的$JUMP_DRIVE_1$出了故障，导致我每一次启动的时候都会做布朗运动。这一次实属巧合，出现在了$NAME_Laurel$上。"
+ ethic_easter.151.c:0 "$PRESCRIPTED_ruler_name_humans5$，你愿意帮助我们治理国家吗？"
+ ethic_easter.151.c.response:0 "当然可以。"
+ wangming_leader_desc:0 "王明是一个主张远视主义的科学家，灵感丰富而又及其具有组织能力，小能够发展科技，大能够管理国家。他认为，科学技术的发展能够更好的发展社会主义。"
+ wangming_leader_catch_phrase:0 "§L“科技是实现共产主义的唯一途径！”§!"
 
  red_dawn_database_boot:0 "数据库开机"
- red_dawn_database_boot_desc:0 "由外星旅者§Y华章§!友情提供的先驱者文明数据库，为了保持其工作状态，需要消耗大量能源。\n§L“这玩意多久没更新了，系统有点老化，关机再开机很麻烦的。”某人如是说。§!"
+ red_dawn_database_boot_desc:0 "由外星旅者$Y华章§!友情提供的先驱者文明数据库，为了保持其工作状态，需要消耗大量能源。\n§L“这玩意多久没更新了，系统有点老化，关机再开机很麻烦的。”某人如是说。§!"
  red_dawn_database:0 "赤色黎明数据库"
  red_dawn_database_desc:0 "一个伟大文明遗留的数据库，其中包含了这个文明对过去的总结与对未来的设想，让人在学习之余产生对这个伟大文明的向往。"
  red_dawn_database_physics:0 "赤色黎明数据库"

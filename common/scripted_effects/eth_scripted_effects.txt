@@ -199,4 +199,4 @@ red_dowm_war = {
         attacker_war_goal = wg_galactic_revolution
         name = "casus_belli_cb_galactic_revolution"
     }
-}
+}    
