@@ -411,7 +411,7 @@ country_event = {
 					}
 				}
 				country_event = { 
-					id = ethic_easter.150 days = 1 random = 364
+					id = ethic_easter.150 days = 1 random = 359
 				}
 			}	
 			create_country = {
@@ -751,7 +751,6 @@ country_event = {
 country_event = {
 	id = ethic_easter.150
 	is_triggered_only = yes
-	diplomatic = yes
 	picture = GFX_evt_satellite_in_orbit
 	title = ethic_easter.150.name
 	desc = ethic_easter.150.desc
@@ -772,7 +771,7 @@ country_event = {
 	desc = ethic_easter.151.desc
 	title = ethic_easter.151.name
 	picture_event_data = {
-		portrait = stardust_huazhang
+		portrait = wangming
 		room = "ethic_spaceship_room"
 	}
 
@@ -789,67 +788,23 @@ country_event = {
 	option = {
 		name = ethic_easter.151.c
 		response_text = ethic_easter.151.c.response
+
+	}
+	option = {
+		trigger = {
+			nor = {
+				has_authority = auth_imperial
+			}
+		}
+		name = ethic_easter.151.d
+		response_text = ethic_easter.151.d.response
 		is_dialog_only = yes
+	}
+	option = {
+		name = ethic_easter.151.e
+		response_text = ethic_easter.151.d.response
 		hidden_effect = {
-			create_species = {
-				name = NAME_red_dawn
-				class = PARAGON
-				portrait = wangming
-				namelist = "HUMAN4"
-				traits = {
-					trait = trait_pc_nuked_preference
-					trait = trait_cybernetic
-					trait = trait_psionic
-					trait = trait_erudite
-					trait = trait_cyborg_logic_engines
-					trait = trait_cyborg_enhanced_memory
-					trait = trait_cyborg_learning_algorithms
-				}
-				effect = {
-					save_event_target_as = wangming_species
-				}
-			}
-			create_leader = {
-				species = event_target:wangming_species
-				event_leader = yes
-				class = scientist
-				name = PRESCRIPTED_ruler_name_humans5
-				skill = 5
-				randomize_traits = no
-				skip_background_generation = yes
-				background_ethic = ethic_materialist
-				custom_catch_phrase = wangming_leader_catch_phrase
-				custom_description = wangming_leader_desc
-				traits = {
-					trait = subclass_scientist_explorer
-					trait = leader_trait_red_dawn
-				}
-				gender = indeterminable
-				set_age = 20
-				hide_age = yes
-				effect = {
-					save_global_event_target_as = wangming
-					set_leader_flag = legendary_leader
-					set_leader_flag = immune_to_negative_traits
-					set_leader_flag = wangming
-					set_owner = root
-				}
-			}
-			create_message = {
-				type = MESSAGE_RECRUITED_LEADER
-				localization = MESSAGE_RECRUITED_LEADER_DESC
-				days = @toast_message_days
-				target = event_target:wangming
-				variable = {
-					type = name
-					localization = LEADER
-					scope = event_target:wangming
-				}
-				variable = {
-					key = "border"
-					value = "GFX_border_legendary"
-				}
-			}
+			create_wangming = yes
 		}
 	}
 }
@@ -898,10 +853,17 @@ country_event = {
 
 		hidden_effect = {
 			this ={
-				country_event = { id = ethic_easter.201 days = 3600 random = 3600 }
+				country_event = {
+					id = ethic_easter.201
+					days = 3600
+					random = 3600
+				}
 			}
 			event_target:FallenEmpireTaskOrigin = {
-				add_opinion_modifier = { who = root modifier = opinion_accepted_fallen_empire_request }
+				add_opinion_modifier = {
+					who = root
+					modifier = opinion_accepted_fallen_empire_request
+				}
 
 				save_global_event_target_as = red_dawn_enemy
 			}
@@ -929,7 +891,9 @@ country_event = {
 
 	option = {
 		name = ethic_easter.201.a
-		country_event = { id = ethic_easter.202 }
+		country_event = {
+			id = ethic_easter.202
+		}
 	}
 }
 
