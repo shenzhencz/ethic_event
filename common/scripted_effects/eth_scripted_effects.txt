@@ -235,6 +235,7 @@ create_wangming = {
             trait = leader_trait_red_dawn
             trait = leader_trait_spark_of_genius
             trait = leader_trait_ultravisionary_socialism
+            trait = leader_trait_science_communicator
         }
         gender = indeterminable
         set_age = 20

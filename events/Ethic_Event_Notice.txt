@@ -10,16 +10,31 @@ event = {
     }
     option = {
         name = ethic_event_notice.0.a
-        set_global_flag = notice_given
+        hidden_effect = {
+            set_global_flag = notice_given
+        }
     }
     option = {
         name = ethic_event_notice.0.b
         custom_tooltip = ethic_event_notice.0.b.news.tooltip
         hidden_effect = {
             country_event = {
-                id = ethic_notice.2
+                id = ethic_event_notice.1
             }
             set_global_flag = notice_given
+        }
+    }
+}
+country_event = {
+    id = ethic_event_notice.1
+    title = ethic_notice.2.name
+    desc = ethic_notice.2.desc
+    picture = GFX_evt_stardust
+    is_triggered_only = yes
+    option = {
+        name = ethic_notice.2.a
+        hidden_effect = {
+            country_event = { id = ethic_event_notice.0 }
         }
     }
 }
