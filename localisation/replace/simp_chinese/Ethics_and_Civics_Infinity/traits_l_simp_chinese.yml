@@ -1,0 +1,29 @@
+﻿l_simp_chinese:
+ trait_red_dawn:0 "§R赤色黎明§!"
+ trait_red_dawn_desc:0 "一种已经把共产主义的观念植入集体潜意识的物种，这是它们进入空想时代后唯一的信念。"
+
+ leader_trait_huazhang:0 "临时政委"
+ leader_trait_huazhang_desc:0 "作为赤色黎明文明火种计划的最后一批执行者，人民科学院的科学家们被紧急授予了集体潜意识的最高级操作权。只要种子落入土壤当中，新的森林就会吸收灰烬中的养分破土而出，茁壮成长。"
+
+ leader_trait_wangfeng_fleet:0 "舰队政委"
+ leader_trait_wangfeng_fleet_desc:0 "对于赤色黎明的指挥员们来说，政治工作的重要性更胜于军事工作。"
+ leader_trait_wangfeng_fleet_effect:0 "只要该领袖在指挥舰队，则为全国带来此效果：\n$t$$mod_pop_ethic_socialism_attraction_mult$：§Y+25%§!\n$t$$mod_pop_ethic_militarist_attraction_mult$：§Y+25%§!\n若该领袖在交战中进入了我们任意敌国的领土，这一效果还会加倍作用于我们的敌人。"
+
+ modifier_wangfeng:0 "舰队政委"
+ modifier_wangfeng_desc:0 "王枫的政治工作激励着我们的军队投身于银河解放事业。"
+
+ modifier_wangfeng_enemy:0 "舰队政委"
+ modifier_wangfeng_enemy_desc:0 "敌人的政委正在对我们的军队展开政治攻势，以动摇基层士兵的思想。"
+
+ leader_trait_wangfeng_ideology:0 "和平与战争之子"
+ leader_trait_wangfeng_ideology_desc:0 "王枫爱好和平，但她深知，以斗争求和平则和平存，以妥协求和平则和平亡。"
+ leader_trait_wangfeng_ideology_effect:0 "和平时会提供§Y$mod_pop_ethic_socialism_attraction_mult$§!，战争时则增加§Y$mod_pop_ethic_militarist_attraction_mult$§!"
+
+ leader_trait_wangfeng_government:0 "临时总督"
+ leader_trait_wangfeng_government_desc:0 "除了军事经验，王枫也有一定的行政管理经验，她可以在我们的内阁发光发热。"
+
+ leader_trait_wangfeng_produce:0 "军事劳动委员长"
+ leader_trait_wangfeng_produce_desc:0 "赤色黎明鼓励士兵参与生产劳动，王枫把这一传统带到了我们的军队中。"
+
+ leader_trait_ultravisionary_socialism:0 "远视主义"
+ leader_trait_ultravisionary_socialism_desc:0 "这个科学家将科技的发展放在了第一位。他认为发展科技是通往共产主义的捷径，因此他将绝大部分的精力都投入到了科研工作之中。"

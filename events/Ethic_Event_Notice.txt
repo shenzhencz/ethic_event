@@ -1,13 +1,16 @@
 namespace=ethic_event_notice
-country_event = {
+event = {
     id = ethic_event_notice.0
     title= ethic_event_notice.0.name
     desc= ethic_event_notice.0.desc
     picture = GFX_author_icon
     is_triggered_only = yes
+    trigger = {
+        not = {has_global_flag = notice_given}
+    }
     option = {
         name = ethic_event_notice.0.a
-
+        set_global_flag = notice_given
     }
     option = {
         name = ethic_event_notice.0.b
@@ -16,6 +19,7 @@ country_event = {
             country_event = {
                 id = ethic_notice.2
             }
+            set_global_flag = notice_given
         }
     }
 }

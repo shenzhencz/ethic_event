@@ -1,0 +1,48 @@
+leader_trait_ultravisionary_socialism = {
+    cost = 3
+    leader_trait_type = destiny
+    leader_class = {scientist}
+    inline_script = {
+        script = traits/ethic_leaders_trait_icon
+        CLASS = leader
+        ICON = "GFX_leader_trait_ultravisionary_socialism"
+        RARITY = paragon
+        COUNCIL = no
+        TIER = none
+    }
+    triggered_councilor_modifier = {
+        potential = {
+            ROOT= {
+                has_civic = civic_ultravisionary_socialism
+            }
+        }
+        all_technology_research_speed = 0.20
+        # increased chance to discover rare techs (weighted in tech-script)
+    }
+    triggered_councilor_modifier = {
+        potential = {
+            ROOT= {
+                NOT= {
+                    has_civic = civic_ultravisionary_socialism
+                }
+            }
+        }
+        all_technology_research_speed = 0.10
+        # increased chance to discover rare techs (weighted in tech-script)
+    }
+    modifier = {
+        science_ship_survey_speed = 0.10
+        ship_anomaly_research_speed_mult = 0.10
+        ship_archaeological_site_excavation_speed_mult = 0.15
+    }
+    planet_modifier = {
+        planet_jobs_engineering_research_produces_mult = 0.2
+        planet_jobs_physics_research_produces_mult = 0.2
+        planet_jobs_society_research_produces_mult = 0.2
+    }
+    sector_modifier = {
+        planet_jobs_engineering_research_produces_mult = 0.1
+        planet_jobs_physics_research_produces_mult = 0.1
+        planet_jobs_society_research_produces_mult = 0.1
+    }
+}

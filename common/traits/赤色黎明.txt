@@ -1,6 +1,6 @@
 leader_trait_red_dawn = {
 	cost = 0
-	destiny_trait = yes
+	leader_trait_type = destiny
 	leader_class = { commander scientist official }
 	inline_script = {
 		script = traits/ethic_leaders_trait_icon
@@ -30,7 +30,7 @@ leader_trait_red_dawn = {
 		army_morale = 0.1
 		army_experience_gain_mult = 0.1
 	}
-	triggered_self_modifier = {
+	triggered_modifier = {
 		potential = {
 			is_ruler = no
 			leader_class = scientist
@@ -70,8 +70,8 @@ leader_trait_red_dawn = {
 }
 
 leader_trait_huazhang = {
-	councilor_trait = yes
-	destiny_trait = yes
+	force_councilor_trait = yes
+	leader_trait_type = destiny
 	inline_script = {
 		script = traits/ethic_leaders_trait_icon
 		CLASS = scientist
@@ -80,7 +80,7 @@ leader_trait_huazhang = {
 		COUNCIL = yes
 		TIER = none
 	}
-	modifier = {
+	councilor_modifier = {
 		pop_ethic_egalitarian_attraction_mult = 0.5
 		pop_ethic_socialism_attraction_mult = 0.5
 		pop_cat_worker_political_power = 1
@@ -93,8 +93,9 @@ leader_trait_huazhang = {
 }
 
 leader_trait_governor_NO_0 = {
-	councilor_trait = yes
-	destiny_trait = yes
+	force_councilor_trait = yes
+
+	leader_trait_type = destiny
 	inline_script = {
 		script = traits/ethic_leaders_trait_icon
 		CLASS = scientist
@@ -117,7 +118,7 @@ leader_trait_governor_NO_0 = {
 }
 
 leader_trait_wangfeng_fleet = {
-	destiny_trait = yes
+	leader_trait_type = destiny
 	inline_script = {
 		script = traits/ethic_leaders_trait_icon
 		CLASS = admiral
@@ -131,7 +132,7 @@ leader_trait_wangfeng_fleet = {
 		ship_fire_rate_mult = 0.2
 		ship_weapon_range_mult = 0.2
 	}
-	leader_class = { admiral }
+	leader_class = { commander }
 	initial = no
 	randomized = no
 	selectable_weight = 0
@@ -139,8 +140,8 @@ leader_trait_wangfeng_fleet = {
 }
 
 leader_trait_wangfeng_ideology = {
-	councilor_trait = yes
-	destiny_trait = yes
+	force_councilor_trait = yes
+	leader_trait_type = destiny
 	inline_script = {
 		script = traits/ethic_leaders_trait_icon
 		CLASS = admiral
@@ -175,7 +176,9 @@ leader_trait_wangfeng_ideology = {
 			pop_ethic_militarist_attraction_mult = 0.75
 		}
 	}
-	leader_class = { admiral }
+	leader_class = {
+		commander
+	}
 	initial = no
 	randomized = no
 	selectable_weight = 0
@@ -183,8 +186,8 @@ leader_trait_wangfeng_ideology = {
 }
 
 leader_trait_wangfeng_government = {
-	councilor_trait = yes
-	destiny_trait = yes
+	force_councilor_trait = yes
+	leader_trait_type = destiny
 	inline_script = {
 		script = traits/ethic_leaders_trait_icon
 		CLASS = admiral
@@ -197,15 +200,15 @@ leader_trait_wangfeng_government = {
 		planet_stability_add = 10
 		planet_crime_mult = -0.25
 	}
-	leader_class = { admiral }
+	leader_class = { commander }
 	initial = no
 	randomized = no
 	selectable_weight = 0
 }
 
 leader_trait_wangfeng_produce = {
-	councilor_trait = yes
-	destiny_trait = yes
+	force_councilor_trait = yes
+	leader_trait_type = destiny
 	inline_script = {
 		script = traits/ethic_leaders_trait_icon
 		CLASS = admiral
@@ -241,7 +244,7 @@ leader_trait_wangfeng_produce = {
 		planet_soldiers_minerals_produces_add = 1.5
 		planet_soldiers_alloys_produces_add = 0.5
 	}
-	leader_class = { admiral }
+	leader_class = { commander }
 	initial = no
 	randomized = no
 	selectable_weight = 0

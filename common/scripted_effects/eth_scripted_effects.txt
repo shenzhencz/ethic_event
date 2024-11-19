@@ -234,9 +234,7 @@ create_wangming = {
             trait = subclass_scientist_councilor
             trait = leader_trait_red_dawn
             trait = leader_trait_spark_of_genius
-            trait = leader_trait_expertise_particles
-            trait = leader_trait_custom_AI_assistant
-            trait = leader_trait_engineering_focus
+            trait = leader_trait_ultravisionary_socialism
         }
         gender = indeterminable
         set_age = 20
@@ -263,5 +261,124 @@ create_wangming = {
             key = "border"
             value = "GFX_border_legendary"
         }
+    }
+}
+generate_huazhang = {
+    create_country = {
+        name = "NAME_red_dawn_database"
+        type = red_dawn
+        ethos = {
+            ethic = ethic_fanatic_socialism
+            ethic = ethic_focused
+        }
+        civics = {
+            civic = civic_distribution_on_demand
+        }
+        flag = {
+            icon = {
+                category = "red_dawn"
+                file = "red_dawn.dds"
+            }
+            background = {
+                category = "backgrounds"
+                file = "sinus.dds"
+            }
+            colors={
+                "red"
+                "red"
+                "null"
+                "null"
+            }
+        }
+        effect = {
+            save_event_target_as = red_dawn_country
+        }
+    }
+    event_target:red_dawn_country = {
+        create_species = {
+            name = NAME_red_dawn
+            class = PARAGON
+            portrait = stardust
+            namelist = "HUMAN4"
+            traits = {
+                trait = trait_pc_nuked_preference
+                trait = trait_cybernetic
+                trait = trait_psionic
+                trait = trait_erudite
+                trait = trait_cyborg_logic_engines
+                trait = trait_cyborg_enhanced_memory
+                trait = trait_cyborg_learning_algorithms
+            }
+            effect = {
+                save_event_target_as = huazhang_species
+            }
+        }
+        create_leader = {
+            species = event_target:huazhang_species
+            event_leader = yes
+            class = scientist
+            name = PRESCRIPTED_ruler_name_humans4
+            skill = 5
+            randomize_traits = no
+            skip_background_generation = yes
+            background_ethic = ethic_socialism
+            custom_catch_phrase = huazhang_leader_catch_phrase
+            custom_description = huazhang_leader_desc
+            traits = {
+                trait = subclass_scientist_explorer
+                trait = leader_trait_red_dawn
+                trait = leader_trait_huazhang
+                trait = trait_ruler_home_in_the_sky
+                trait = leader_trait_collective_wisdom
+                trait = leader_trait_towel
+            }
+            gender = indeterminable
+            set_age = 20
+            hide_age = yes
+            effect = {
+                save_global_event_target_as = huazhang
+                set_leader_flag = legendary_leader
+                set_leader_flag = immune_to_negative_traits
+                set_leader_flag = huazhang
+                set_owner = root
+            }
+        }
+    }
+
+    capital_scope = {
+        create_fleet = {
+            name = "NAME_Laurel"
+            effect = {
+                set_owner = root
+                create_ship = {
+                    name = "NAME_Laurel"
+                    prefix = no
+                    upgradable = no
+                    design = "NAME_Red_Dawn_Ship"
+                    graphical_culture = "ai_01"
+                    effect = {
+                        reduce_hp = 2999
+                    }
+                }
+                set_location = {
+                    target = prev
+                    distance = 45
+                    angle = random
+                }
+                save_global_event_target_as = Laurel
+                assign_leader = event_target:huazhang
+            }
+            settings = {
+                can_upgrade = no
+                can_disband = no
+                can_change_composition = no
+                can_change_leader = no
+                uses_naval_capacity = no
+            }
+        }
+    }
+
+    event_target:red_dawn_country = {
+        establish_communications_no_message = root
     }
 }

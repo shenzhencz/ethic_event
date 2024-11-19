@@ -3,7 +3,6 @@ ship_design = {
     name = "NAME_Red_Dawn_Ship"
     ship_size = red_dawn_ship
     is_event_design = yes
-    is_event_design = yes
 
     section = {
         template = "laurel_key"

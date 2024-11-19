@@ -404,6 +404,7 @@ country_event = {
 									has_ethic = ethic_fanatic_authoritarian
 									has_valid_civic = civic_characteristic_socialism
 									has_valid_civic = civic_characteristic_socialism_pioneer
+									has_country_flag = ethic_wangming
 								}
 							}
 							has_valid_civic = civic_machine_liberator
@@ -414,123 +415,7 @@ country_event = {
 					id = ethic_easter.150 days = 1 random = 359
 				}
 			}	
-			create_country = {
-				name = "NAME_red_dawn_database"
-				type = red_dawn
-				ethos = {
-					ethic = ethic_fanatic_socialism
-					ethic = ethic_focused
-				}
-				civics = {
-					civic = civic_distribution_on_demand
-				}
-				flag = {
-					icon = {
-						category = "red_dawn"
-						file = "red_dawn.dds"
-					}
-					background = {
-						category = "backgrounds"
-						file = "sinus.dds"
-					}
-					colors={
-						"red"
-						"red"
-						"null"
-						"null"
-					}
-				}
-				effect = {
-					save_event_target_as = red_dawn_country
-				}
-			}
-			event_target:red_dawn_country = {
-				create_species = {
-					name = NAME_red_dawn
-					class = PARAGON
-					portrait = stardust
-					namelist = "HUMAN4"
-					traits = {
-						trait = trait_pc_nuked_preference
-						trait = trait_cybernetic
-						trait = trait_psionic
-						trait = trait_erudite
-						trait = trait_cyborg_logic_engines
-						trait = trait_cyborg_enhanced_memory
-						trait = trait_cyborg_learning_algorithms
-					}
-					effect = {
-						save_event_target_as = huazhang_species
-					}
-				}
-				create_leader = {
-					species = event_target:huazhang_species
-					event_leader = yes
-					class = scientist
-					name = PRESCRIPTED_ruler_name_humans4
-					skill = 5
-					randomize_traits = no
-					skip_background_generation = yes
-					background_ethic = ethic_socialism
-					custom_catch_phrase = huazhang_leader_catch_phrase
-					custom_description = huazhang_leader_desc
-					traits = {
-						trait = subclass_scientist_explorer
-						trait = leader_trait_red_dawn
-						trait = leader_trait_huazhang
-						trait = trait_ruler_home_in_the_sky
-						trait = leader_trait_collective_wisdom
-						trait = leader_trait_towel
-					}
-					gender = indeterminable
-					set_age = 20
-					hide_age = yes
-					effect = {
-						save_global_event_target_as = huazhang
-						set_leader_flag = legendary_leader
-						set_leader_flag = immune_to_negative_traits
-						set_leader_flag = huazhang
-						set_owner = root
-					}
-				}
-			}
-
-			capital_scope = {
-				create_fleet = {
-					name = "NAME_Laurel"
-					effect = {
-						set_owner = root
-						create_ship = {
-							name = "NAME_Laurel"
-							prefix = no
-							upgradable = no
-							design = "NAME_Red_Dawn_Ship"
-							graphical_culture = "ai_01"
-							effect = {
-								reduce_hp = 2999
-							}
-						}
-						set_location = {
-							target = prev
-							distance = 45
-							angle = random
-						}
-						save_global_event_target_as = Laurel
-						assign_leader = event_target:huazhang
-					}
-					settings = {
-						can_upgrade = no
-						can_disband = no
-						can_change_composition = no
-						can_change_leader = no
-						uses_naval_capacity = no
-					}
-				}
-			}
-
-			event_target:red_dawn_country = {
-				establish_communications_no_message = root
-			}
+			generate_huazhang = yes
 			save_global_event_target_as = red_dawn_database_owner
 
 			create_message = {
@@ -788,6 +673,7 @@ country_event = {
 	option = {
 		name = ethic_easter.151.c
 		response_text = ethic_easter.151.c.response
+		is_dialog_only = yes
 
 	}
 	option = {
@@ -798,7 +684,11 @@ country_event = {
 		}
 		name = ethic_easter.151.d
 		response_text = ethic_easter.151.d.response
-		is_dialog_only = yes
+		hidden_effect = {
+			create_wangming = yes
+			set_leader = event_target:wangming
+			set_country_flag = ethic_wangming
+		}
 	}
 	option = {
 		name = ethic_easter.151.e
@@ -806,12 +696,12 @@ country_event = {
 		hidden_effect = {
 			create_wangming = yes
 		}
+		set_country_flag = ethic_wangming
 	}
 }
 #交堕落的事件链
 country_event = {
 	id = ethic_easter.200
-	is_triggered_only = yes
 	diplomatic = yes
 	picture = GFX_evt_maitian
 	title = ethic_easter.200.name
