@@ -22,6 +22,7 @@ event = {
                 id = ethic_event_notice.1
             }
             set_global_flag = notice_given
+
         }
     }
 }
