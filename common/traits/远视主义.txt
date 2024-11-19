@@ -10,23 +10,7 @@ leader_trait_ultravisionary_socialism = {
         COUNCIL = no
         TIER = none
     }
-    triggered_councilor_modifier = {
-        potential = {
-            ROOT= {
-                has_civic = civic_ultravisionary_socialism
-            }
-        }
-        all_technology_research_speed = 0.20
-        # increased chance to discover rare techs (weighted in tech-script)
-    }
-    triggered_councilor_modifier = {
-        potential = {
-            ROOT= {
-                NOT= {
-                    has_civic = civic_ultravisionary_socialism
-                }
-            }
-        }
+    councilor_modifier = {
         all_technology_research_speed = 0.10
         # increased chance to discover rare techs (weighted in tech-script)
     }
