@@ -12,6 +12,7 @@ event = {
         name = ethic_event_notice.0.a
         hidden_effect = {
             set_global_flag = notice_given
+
         }
     }
     option = {
