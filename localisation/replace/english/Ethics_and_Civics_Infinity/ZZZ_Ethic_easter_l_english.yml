@@ -1,15 +1,25 @@
 ﻿l_english:
+ ver:0 "0.3.0"
+
  PRESCRIPTED_ruler_name_humans4: "Hua Zhang"
  PRESCRIPTED_ruler_name_humans5: "Wang Ming"
+
  ethic_event_notice.0.name:0 "Mod Hints"
  ethic_event_notice.0.desc:0 "This Mod reveals two leaders of mod Ethics and Civics Infinity.\n\nThe two leaders with their ships are very help§Mful when game starting,so the author reveals related events and settings.\n\nIf you want to experience events about fallen empire,open console and type ethic_easter.9(need the first scientist and a $ethic_fanatic_materialist$ fallen empire)\nThe author also added a leader as a symbol of myself!\nshenzhencz\n2024-11-16"
  ethic_event_notice.0.a:0 "Close"
- ethic_event_notice.0.b:0 "Let me have a look at the notice of the original author"
- ethic_event_notice.0.b.news.tooltip:0 "(the word the original author said)$ethic_notice.1.news.tooltip$"
+ ethic_event_notice.0.b:0 "Notice"
+ ethic_event_notice.0.b.news.tooltip:0 "Version:$ver$"
+ ethic_event_notice.0.c:0 "Let me have a look at the notice of the original author"
+ ethic_event_notice.0.c.news.tooltip:0 "(the word the original author said)$ethic_notice.1.news.tooltip$"
+
  edict_eth_notice:0 "Mod menu:show the hints"
  edict_eth_notice_desc:0 "trigger beginning event again"
  edict_eth_notice2:0 "trigger fallen empire events"
  edict_eth_notice2_desc:0 "you can check if $ethic_fanatic_materialist$ fallen empires exists,and trigger realted events."
+
+ ethic_event_notice.2.name:0 "Notice:$ver$"
+ ethic_event_notice.2.desc:0 "The author has roughly completed the initial refinement of this mod and added an English translation.\nIn the mod, in addition to the two leaders who were removed in the original mod, I also added myself in the mod as a leader\n\n§RSPECIAL WARNING:my name ISN'T Wang Ming,last time a comrade really named Wang Ming contacted me and said that he was considered as me!§!\n\nshenzhencz\n\n2024-11-23"
+ ethic_event_notice.2.a:0 "关闭"
 
  red_dawn:0 "§RRed Dawn§!"
 
@@ -56,6 +66,7 @@
  ethic_easter.3.b.machine:0 "Searching for data... No Red Dawn Civilization found."
  ethic_easter.3.b.machine_servitor:0 "Searching for data... No Red Dawn Civilization found."
  ethic_easter.3.b.revolution_machine:0 "Searching for data... Suspicious practicing socialism,welcome,comrade."
+
  ethic_easter.3.b.response:0 "Red Dawn is the homeland of all laborers in the galaxy, a great civilization. We achieved communist society in the whole galaxy 50,000 years ago — a truly equal and free society."
  ethic_easter.3.b.socialism.response:0 "Yes, comrade, we are indeed on the road of socialism and have already gone further.\n\nRed Dawn is the homeland of all laborers in the galaxy, a great civilization. We achieved communist society in the whole galaxy 50,000 years ago — a truly equal and free society."
  ethic_easter.3.b.hive.response:0 "No, Red Dawn is an individual consciousness independent civilization...\n\nRed Dawn is the homeland of all workers in the galaxy, a great civilization. Fifty thousand river system years ago, we have widely realized a communist society in the whole system - a collectivism society in which every intelligent life can coexist harmoniously."
@@ -77,6 +88,7 @@
  ethic_easter.3.e.machine:0 "We can temporarily give you a research position."
  ethic_easter.3.e.machine_servitor:0 "We can take care of you."
  ethic_easter.3.e.revolution_machine:0 "Why don't you stay in our country?"
+
  ethic_easter.3.e.response:0 "I hope so too. According to our Latecomer Civilization Assistance Agreement, I will assist you in space exploration and help you build society. During this period, you can freely access the data in our database, which is intended for latecomer civilizations. However, 7,000 years ago, in order to give up the energy consumption of the ecological circulation system, I made my life form two-dimensional, and I can't leave the command module of the Laurel now."
  ethic_easter.3.e.capitalism.response:0 "I hope so too. According to our Latecomer Civilization Assistance Agreement, I will assist you in space exploration and help you build society. During this period, you can freely access the data in our database, which is intended for latecomer civilizations. However, 7,000 years ago, in order to give up the energy consumption of the ecological circulation system, I made my life form two-dimensional, and I can't leave the command module of the Laurel now.\n\nBy the way, I noticed that your civilization has certain thoughts that I hate... I must warn you: the knowledge I provide will have a strong ideological orientation . No matter what happens after your civilization comes into contact with my knowledge, I will also not stand for your government."
  ethic_easter.3.egestalt.response:0 "I hope so too. According to our Latecomer Civilization Assistance Agreement, I will assist you in space exploration and help you build society. During this period, you can freely access the data in our database, which is intended for latecomer civilizations. However, 7,000 years ago, in order to give up the energy consumption of the ecological circulation system, I made my life form two-dimensional, and I can't leave the command module of the Laurel now."
@@ -88,7 +100,6 @@
  
  ethic_easter.3.g:0 "§ROrganic slag? Fire now!§!"
  ethic_easter.3.g.response:0 "Exterminator? Gee...\n\n§L( The alien spaceship suddenly disappeared, and our detection radar turned up to scan, but nothing came up. )§!"
-
  ethic_easter.3.h:0 "§RTurn off Communication§!"
  
 

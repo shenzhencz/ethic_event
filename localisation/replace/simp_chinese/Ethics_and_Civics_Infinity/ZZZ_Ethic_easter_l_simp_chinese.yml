@@ -1,15 +1,25 @@
 ﻿l_simp_chinese:
+ ver:0 "0.3.0"
+
  PRESCRIPTED_ruler_name_humans4: "华章"
  PRESCRIPTED_ruler_name_humans5: "王明"
+
  ethic_event_notice.0.name:0 "Mod提示"
  ethic_event_notice.0.desc:0 "此Mod复现了mod更多思潮与国策：无限（Ethics and Civics Infinity）中被移除的两个领袖。\n\n这两个领袖加上给的舰船在开局是一个非常大的帮助，作者便根据官方发布的老版本恢复了相关事件和设定。\n\n如果需要体验堕落相关事件，开控制台输入ethic_easter.9（需要获得第一个科学家领袖，以及一个$ethic_fanatic_materialist$堕落帝国）\n除此以外，作者还增加了一个代表作者的领袖。\nshenzhencz\n2024-11-16"
  ethic_event_notice.0.a:0 "关闭"
- ethic_event_notice.0.b:0 "让我康康原作者怎么骂一些人的！"
- ethic_event_notice.0.b.news.tooltip:0 "（原作者原话）$ethic_notice.1.news.tooltip$"
+ ethic_event_notice.0.b:0 "通知"
+ ethic_event_notice.0.b.news.tooltip:0 "当前版本：$ver$"
+ ethic_event_notice.0.c:0 "让我康康原作者怎么骂一些人的！"
+ ethic_event_notice.0.c.news.tooltip:0 "（原作者原话）$ethic_notice.1.news.tooltip$"
+
  edict_eth_notice:0 "无限思潮菜单：显示提示"
  edict_eth_notice_desc:0 "重新显示开局事件"
  edict_eth_notice2:0 "触发堕落事件"
  edict_eth_notice2_desc:0 "你可以用它检测星系中是否有$ethic_fanatic_materialist$堕落帝国,并触发相关事件。"
+
+ ethic_event_notice.2.name:0 "$ver$通知"
+ ethic_event_notice.2.desc:0 "作者大致完成了这个mod的初步完善，并且增加了英语翻译。\n在mod之中，除了被移除的两个领袖外，我还把自己塞了进去\n\n§R特别注意：作者不叫王明，上次有个真的叫王明的同志联系我说把他当成我了！§!\n\nshenzhencz\n\n2024-11-23"
+ ethic_event_notice.2.a:0 "关闭"
 
  red_dawn:0 "§R赤色黎明§!"
 
@@ -56,6 +66,7 @@
  ethic_easter.3.b.machine:0 "正在查询资料...未发现赤色黎明文明。"
  ethic_easter.3.b.machine_servitor:0 "正在查询资料...未发现赤色黎明文明。"
  ethic_easter.3.b.revolution_machine:0 "正在查询资料...根据名称分析，疑似正在实行社会主义制度，欢迎您，同志。"
+
  ethic_easter.3.b.response:0 "赤色黎明是全银河所有劳动者的祖国，一个伟大的文明。我们在五万个河系年之前就在全星系内广泛实现了共产主义社会——真正平等而自由的社会。"
  ethic_easter.3.b.socialism.response:0 "“也”？是的，同志，我们确实践行着社会主义的道路，并且早已更进一步。\n\n赤色黎明是全银河所有劳动者的祖国，一个伟大的文明。我们在五万个河系年之前就在全星系内广泛实现了共产主义社会——真正平等而自由的社会。"
  ethic_easter.3.b.hive.response:0 "不，赤色黎明是一个个体意识独立的文明...\n\n赤色黎明是全银河所有劳动者的祖国，一个伟大的文明。我们在五万个河系年之前就在全星系内广泛实现了共产主义社会——每一个智慧生命都能和谐共处的集体主义社会。"
@@ -76,6 +87,7 @@
  ethic_easter.3.e.machine:0 "分析判断你目前暂无明确目标任务，我们可以暂时给你一个研究岗位。"
  ethic_easter.3.e.machine_servitor:0 "分析判断你目前暂无明确目标任务，我们可以照顾你。"
  ethic_easter.3.e.revolution_machine:0 "分析判断你目前暂无明确目标任务，是否援助我方进行研究？"
+
  ethic_easter.3.e.response:0 "我也是这么希望的。根据我们的《后发文明援助协议》，我会协助你们进行宇宙探索，并帮助你们进行社会建设。在此期间，你们可以随意调取我们数据库里的数据，这些本就是为后发文明准备的。不过在七千年前，我为了舍弃生态循环系统的能耗，把自己的生命形态二维化了，我现在没法离开月桂号的指令舱，还请见谅。"
  ethic_easter.3.e.capitalism.response:0 "我也是这么希望的。根据我们的《后发文明援助协议》，我会协助你们进行宇宙探索，并帮助你们进行社会建设。在此期间，你们可以随意调取我们数据库里的数据，这些本就是为后发文明准备的。不过在七千年前，我为了舍弃生态循环系统的能耗，把自己的生命形态二维化了，我现在没法离开月桂号的指令舱，还请见谅。\n\n对了，我注意到你们的文明具备着某些令我厌恶的思想...我必须警告你们：我所提供的知识将带有强烈的意识形态指向性，你们的文明接触到我的知识后，不论发生什么，我同样不会为你们的政府站台。"
  ethic_easter.3.e.gestalt.response:0 "我也是这么希望的。根据我们的《后发文明援助协议》，我会协助你们进行宇宙探索。在此期间，你们可以随意调取我们数据库里的数据，这些本就是为后发文明准备的。不过在七千年前，我为了舍弃生态循环系统的能耗，把自己的生命形态二维化了，我现在没法离开月桂号的指令舱，还请见谅。"
@@ -87,10 +99,8 @@
  
  ethic_easter.3.g:0 "§R有机渣宰？立刻开火！§!"
  ethic_easter.3.g.response:0 "灭绝者？啧...\n\n§L（外星飞船突然间消失了，我们的探查雷达加大功率扫描，但最终一无所获。）§!"
-
  ethic_easter.3.h:0 "§R关闭通讯§!"
  
-
  ethic_easter.4.name:0 "信号消失"
  ethic_easter.4.desc:0 "外星飞船突然间消失了，我们的探查雷达加大功率扫描，但最终一无所获。"
  ethic_easter.4.a:0 "狡猾的外星人"
