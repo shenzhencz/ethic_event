@@ -5,7 +5,7 @@
  PRESCRIPTED_ruler_name_humans5: "Wang Ming"
 
  ethic_event_notice.0.name:0 "Mod Hints"
- ethic_event_notice.0.desc:0 "This Mod reveals two leaders of mod Ethics and Civics Infinity.\n\nThe two leaders with their ships are very help§Mful when game starting,so the author reveals related events and settings.\n\nIf you want to experience events about fallen empire,open console and type ethic_easter.9(need the first scientist and a $ethic_fanatic_materialist$ fallen empire)\nThe author also added a leader as a symbol of myself!\nshenzhencz\n2024-11-16"
+ ethic_event_notice.0.desc:0 "This Mod reveals two leaders of mod Ethics and Civics Infinity.\n\nThe two leaders with their ships are very helpful when game starting,so the author reveals related events and settings.\n\nIf you want to experience events about fallen empire,open console and type ethic_easter.9(need the first scientist and a $ethic_fanatic_materialist$ fallen empire)\nThe author also added a leader as a symbol of myself!\nshenzhencz\n2024-11-16"
  ethic_event_notice.0.a:0 "Close"
  ethic_event_notice.0.b:0 "Notice"
  ethic_event_notice.0.b.news.tooltip:0 "Version:$ver$"
@@ -19,7 +19,7 @@
 
  ethic_event_notice.2.name:0 "Notice:$ver$"
  ethic_event_notice.2.desc:0 "The author has roughly completed the initial refinement of this mod and added an English translation.\nIn the mod, in addition to the two leaders who were removed in the original mod, I also added myself in the mod as a leader\n\n§RSPECIAL WARNING:my name ISN'T Wang Ming,last time a comrade really named Wang Ming contacted me and said that he was considered as me!§!\n\nshenzhencz\n\n2024-11-23"
- ethic_event_notice.2.a:0 "关闭"
+ ethic_event_notice.2.a:0 "CLose"
 
  red_dawn:0 "§RRed Dawn§!"
 
@@ -140,7 +140,7 @@
  ethic_easter.151.e:0 "$PRESCRIPTED_ruler_name_humans5$，Would you like to help us with our research?(Wang Ming will be a normal scientist)"
  ethic_easter.151.e.response:0 "Of course."
  ethic_easter.151.f:0 "What is the letter?"
- ethic_easter.151.f.response:0 "The last letter I received. It reads, “Fight for All That is Beautiful in the Communism World!” "
+ ethic_easter.151.f.response:0 "The last letter I received. It reads, 'Fight for All That is Beautiful in the Communism World!' "
  wangming_leader_desc:0 "Wang Ming is a scientist,who believes $civic_ultravisionary_socialism$,with rich inspiration and organizational skills, which can develop science and technology at a small level and run a country at a large level. He believes that the development of science and technology can better develop socialism."
  wangming_leader_catch_phrase:0 "§L“Science and technology are the only way to achieve communism!”§!"
 

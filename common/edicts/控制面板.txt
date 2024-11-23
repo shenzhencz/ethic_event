@@ -1,7 +1,14 @@
 eth_notice = {
     length = 1
     icon = "GFX_edict_setup_menu"
-    effect = { hidden_effect = { country_event = { id = ethic_event_notice.0 } } }
+    effect = {
+        hidden_effect = {
+            remove_global_flag = notice_given
+            country_event = {
+                id = ethic_event_notice.0
+            }
+        }
+    }
     potential = { is_ai = no }
     ai_weight = { weight = 0 }
 }
