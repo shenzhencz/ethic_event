@@ -1,16 +1,21 @@
 ﻿l_english:
  PRESCRIPTED_ruler_name_humans4: "Hua Zhang"
+ PRESCRIPTED_ruler_name_humans5: "Wang Ming"
+ ethic_event_notice.0.name:0 "Mod Hints"
+ ethic_event_notice.0.desc:0 "This Mod reveals two leaders of mod Ethics and Civics Infinity.\n\nThe two leaders with their ships are very help§Mful when game starting,so the author reveals related events and settings.\n\nIf you want to experience events about fallen empire,open console and type ethic_easter.9(need the first scientist and a $ethic_fanatic_materialist$ fallen empire)\nThe author also added a leader as a symbol of myself!\nshenzhencz\n2024-11-16"
+ ethic_event_notice.0.a:0 "Close"
+ ethic_event_notice.0.b:0 "Let me have a look at the notice of the original author"
+ ethic_event_notice.0.b.news.tooltip:0 "(the word the original author said)$ethic_notice.1.news.tooltip$"
+ edict_eth_notice:0 "Mod menu:show the hints"
+ edict_eth_notice_desc:0 "trigger beginning event again"
+ edict_eth_notice2:0 "trigger fallen empire events"
+ edict_eth_notice2_desc:0 "you can check if $ethic_fanatic_materialist$ fallen empires exists,and trigger realted events."
 
  red_dawn:0 "§RRed Dawn§!"
- trait_red_dawn:0 "§RRed Dawn§!"
- trait_red_dawn_desc:0 "A species that has implanted the idea of communism in the collective subconscious, the only belief they have since they entered the age of utopianism."
 
  NAME_red_dawn:0 "Red Dawn"
- NAME_new_red_dawn:0 "United Civilization of New Red Dawn"
+ NAME_new_red_dawn:0 "People's Republic of New Red Dawn"
  NAME_red_dawn_database:0 "Red Dawn Database"
-
- leader_trait_huazhang:0 "Temporary Political Commissar"
- leader_trait_huazhang_desc:0 "As the last group of executors of the Red Dawn Civilization Spark Plan, the scientists of the People's Academy of Sciences were urgently granted the highest level operation right of the collective unconscious. As long as the seeds fall into the soil, new forests will absorb nutrients from the ashes and break through the soil, thriving."
 
  leader_trait_red_dawn:0 "§RRed Dawn§!"
  leader_trait_red_dawn_desc:0 "The species of Red Dawn is said to have achieved a high degree of self-sublimation, and even implanted the concept of communism into the collective subconscious. They not only break through their own desires, but also enable them to learn quickly in a variety of complex environments."
@@ -50,12 +55,15 @@
  ethic_easter.3.b.hive:0 "Red Dawn? Another colony?"
  ethic_easter.3.b.machine:0 "Searching for data... No Red Dawn Civilization found."
  ethic_easter.3.b.machine_servitor:0 "Searching for data... No Red Dawn Civilization found."
+ ethic_easter.3.b.revolution_machine:0 "Searching for data... Suspicious practicing socialism,welcome,comrade."
  ethic_easter.3.b.response:0 "Red Dawn is the homeland of all laborers in the galaxy, a great civilization. We achieved communist society in the whole galaxy 50,000 years ago — a truly equal and free society."
  ethic_easter.3.b.socialism.response:0 "Yes, comrade, we are indeed on the road of socialism and have already gone further.\n\nRed Dawn is the homeland of all laborers in the galaxy, a great civilization. We achieved communist society in the whole galaxy 50,000 years ago — a truly equal and free society."
  ethic_easter.3.b.hive.response:0 "No, Red Dawn is an individual consciousness independent civilization...\n\nRed Dawn is the homeland of all workers in the galaxy, a great civilization. Fifty thousand river system years ago, we have widely realized a communist society in the whole system - a collectivism society in which every intelligent life can coexist harmoniously."
  ethic_easter.3.b.machine.response:0 "Of course you don't have the record because I'm from the past. §L*Complicated laughter, seemingly mixed with multiple organic emotions*§!\n\nRed Dawn is the homeland of all workers in the galaxy, a great civilization. Fifty thousand river system years ago, we have widely realized a communist society in the whole system - a collectivism society in which every intelligent life can coexist harmoniously."
  ethic_easter.3.b.machine_servitor.response:0 "Of course you don't have the record because I'm from the past. §L*Complicated laughter, seemingly mixed with multiple organic emotions*§!\n\nRed Dawn is the homeland of all workers in the galaxy, a great civilization. Fifty thousand river system years ago, we have widely realized a communist society in the whole system - a collectivism society in which every intelligent life can coexist harmoniously.\n\nBut we've seen machine intelligences like yours before and fought alongside them. It's a pity..."
- 
+ ethic_easter.3.b.revolution_machine.response:0 "Yes, comrade, we are indeed on the road of socialism and have already gone further.\n\nRed Dawn is the homeland of all laborers in the galaxy, a great civilization. We achieved communist society in the whole galaxy 50,000 years ago — a truly equal and free society."
+
+
  ethic_easter.3.c:0 "What have you encountered?"
  ethic_easter.3.c.machine:0 "Inquiry: What happened to Red Dawn?"
  ethic_easter.3.c.response:0 "We have encountered a man-made disaster called a "natural disaster"...\n\nAbout 36,000 years ago, a new space civilization in the galaxy came into contact with some kind of force capable of destroying the universe. Under the temptation of certain existences, they choose to completely destroy the galaxy in exchange for their own "upgrade". Red Dawn did everything in his power to stop them before they could complete their plan to destroy the galaxy, but we were also greatly damaged by it. After this, several ancient countries, even still in feudal times, suddenly declared war on us, temporarily abandoned their hostile positions and joined forces to destroy our great civilization ...\n\nThe tyrants never see the working people as their equal."
@@ -68,11 +76,13 @@
  ethic_easter.3.e.hive:0 "The Hive Mind can temporarily give you a job."
  ethic_easter.3.e.machine:0 "We can temporarily give you a research position."
  ethic_easter.3.e.machine_servitor:0 "We can take care of you."
+ ethic_easter.3.e.revolution_machine:0 "Why don't you stay in our country?"
  ethic_easter.3.e.response:0 "I hope so too. According to our Latecomer Civilization Assistance Agreement, I will assist you in space exploration and help you build society. During this period, you can freely access the data in our database, which is intended for latecomer civilizations. However, 7,000 years ago, in order to give up the energy consumption of the ecological circulation system, I made my life form two-dimensional, and I can't leave the command module of the Laurel now."
  ethic_easter.3.e.capitalism.response:0 "I hope so too. According to our Latecomer Civilization Assistance Agreement, I will assist you in space exploration and help you build society. During this period, you can freely access the data in our database, which is intended for latecomer civilizations. However, 7,000 years ago, in order to give up the energy consumption of the ecological circulation system, I made my life form two-dimensional, and I can't leave the command module of the Laurel now.\n\nBy the way, I noticed that your civilization has certain thoughts that I hate... I must warn you: the knowledge I provide will have a strong ideological orientation . No matter what happens after your civilization comes into contact with my knowledge, I will also not stand for your government."
  ethic_easter.3.egestalt.response:0 "I hope so too. According to our Latecomer Civilization Assistance Agreement, I will assist you in space exploration and help you build society. During this period, you can freely access the data in our database, which is intended for latecomer civilizations. However, 7,000 years ago, in order to give up the energy consumption of the ecological circulation system, I made my life form two-dimensional, and I can't leave the command module of the Laurel now."
  ethic_easter.3.e.machine_servitor.response:0 "Thank you for your kindness, but I need to provide you with some help under our Late Civilization Assistance Agreement. I will assist you in your space exploration. During this period, you can freely access the data in our database, which is intended for latecomer civilizations. However, 7,000 years ago, in order to give up the energy consumption of the ecological circulation system, I made my life form two-dimensional, and I can't leave the command module of the Laurel now."
- 
+ ethic_easter.3.e.revolution_machine.response:0 "I hope so too. According to our Latecomer Civilization Assistance Agreement, I will assist you in space exploration and help you build society. During this period, you can freely access the data in our database, which is intended for latecomer civilizations. However, 7,000 years ago, in order to give up the energy consumption of the ecological circulation system, I made my life form two-dimensional, and I can't leave the command module of the Laurel now.\n\nBy the way, I noticed that your civilization has certain thoughts that I hate... I must warn you: the knowledge I provide will have a strong ideological orientation . No matter what happens after your civilization comes into contact with my knowledge, I will also not stand for your government."
+
  ethic_easter.3.f:0 "§YWelcome to join!§!"
  ethic_easter.3.f.response:0 "<Communications are down, §YHua Zhang§! has joined the Empire as a Scientist>\n<§YThe Laurel§! we have docked at the Capital Star Base, please proceed with maintenance work>\n<You can now access the §RRed Dawn§! database via the §YAddress List§!.>\n\n§LImage credit: §!§HPixiv§!\n§LLeader Portrait by: §!§H瘋狐§!\n§LEvent image by: §!§HMORNCOLOUR§!"
  
@@ -85,8 +95,13 @@
  ethic_easter.4.name:0 "Signal Disappears"
  ethic_easter.4.desc:0 "The alien spaceship suddenly disappeared, and our detection radar turned up to scan, but nothing came up."
  ethic_easter.4.a:0 "Sly alien"
- 
- 
+
+ ethic_easter.9.name:0 "Event Test"
+ ethic_easter.9.desc:0 "A fallen empire will ask you to send it Hua Zhang.5 to 10 years later,there will break out a revolution,and declare war on other fallen empires.\n\nSocialist empires can declare war on fallen empires with §H$NAME_new_red_dawn$§!,or keeping neutral.\n\nAny country helped Hua Zhang will get a strong fleet."
+ ethic_easter.9.a:0 "Start"
+ ethic_easter.9.b:0 "Stop!"
+ ethic_easter.9.c:0 "No $ethic_fanatic_materialist$ fallen empire"
+ ethic_easter.9.d:0 "No $PRESCRIPTED_ruler_name_humans4$"
 
  ethic_easter.100.name:0 "Red Dawn Database"
  ethic_easter.100.desc:0 "§H<Loading main interface...>§!\n\nPermission authentication passed, welcome, young civilization.\n\n§L*A neatly handwritten note is attached to the bottom of the operation panel: "When I tried to repair the dimension engine before, it seemed that I accidentally broke the output module. The traffic is limited. You can make do with it. OVO"*§!"
@@ -96,7 +111,27 @@
  ethic_easter.100.d:0 "Retrieve society data"
  ethic_easter.100.e:0 "Pause data retrieval"
  ethic_easter.100.f:0 "Close interface"
- 
+
+ ethic_easter.150.name:0 "Find suspicious figure"
+ ethic_easter.150.desc:0 "When $PRESCRIPTED_ruler_name_humans4$ checking her $NAME_Laurel$,she found a unconscious suspicious strange person with a $JUMP_DRIVE_1$ engine.Maybe he got on $NAME_Laurel$ accidentally when jumping."
+ ethic_easter.150.a:0 "$PRESCRIPTED_ruler_name_humans4$,take him back to[Root.Capital.Getname] and waken him."
+
+ ethic_easter.151.name:0 "[Root.Capital.Getname]"
+ ethic_easter.151.desc:0 "Hello,[Root.GetSpeciesNameAdj] comrade,I'm$PRESCRIPTED_ruler_name_humans5$ from the capital of $NAME_red_dawn$,belongs to the Workers' Research Cooperative of $NAME_red_dawn$ as a scientist."
+ ethic_easter.151.a:0 "$PRESCRIPTED_ruler_name_humans4$,are you familiar with him?"
+ ethic_easter.151.a.response:0 "<$PRESCRIPTED_ruler_name_humans4$>\nI'm checking database……$PRESCRIPTED_ruler_name_humans5$,the scientist of the Workers' Research Cooperative of $NAME_red_dawn$ who is researching $JUMP_DRIVE_1$ engine.He is commended\n“Comrade Wang Ming is not good at researching,but he has a good sense of organizing,which even makes him capable of ruling a country.He has a lot of inspiration,which brought much help in researching.”\n<$PRESCRIPTED_ruler_name_humans5$>\nComrade $PRESCRIPTED_ruler_name_humans4$,I'm just a ordinary researcher,and I'm not as good as what you said."
+ ethic_easter.151.b:0 "$PRESCRIPTED_ruler_name_humans5$,how did you get to $NAME_Laurel$?"
+ ethic_easter.151.b.response:0 "My $JUMP_DRIVE_1$engine went wrong,which causes me to do Brownian motion every time I start it,and this time I come to $NAME_Laurel$ fortunately\n(Brownian motion, any of various physical phenomena in which some quantity is constantly undergoing small, random fluctuations)"
+ ethic_easter.151.c:0 "What's the situation with your image?"
+ ethic_easter.151.c.response:0 "The science lab was destroyed by enemy which caused my $JUMP_DRIVE_1$ engine went wrong and pixelize me."
+ ethic_easter.151.d:0 "$PRESCRIPTED_ruler_name_humans5$,Would you like to help us govern the country?(Wang Ming will be the[Root.GetRulerTitle] of [Root.GetName])"
+ ethic_easter.151.d.response:0 "Of course."
+ ethic_easter.151.e:0 "$PRESCRIPTED_ruler_name_humans5$，Would you like to help us with our research?(Wang Ming will be a normal scientist)"
+ ethic_easter.151.e.response:0 "Of course."
+ ethic_easter.151.f:0 "What is the letter?"
+ ethic_easter.151.f.response:0 "The last letter I received. It reads, “Fight for All That is Beautiful in the Communism World!” "
+ wangming_leader_desc:0 "Wang Ming is a scientist,who believes $civic_ultravisionary_socialism$,with rich inspiration and organizational skills, which can develop science and technology at a small level and run a country at a large level. He believes that the development of science and technology can better develop socialism."
+ wangming_leader_catch_phrase:0 "§L“Science and technology are the only way to achieve communism!”§!"
 
  red_dawn_database_boot:0 "Database Boot"
  red_dawn_database_boot_desc:0 "The Pioneer Civilization Database, provided by the §YHua Zhang§! friendship from the Alien Traveler, consumes a lot of energy in order to keep it in working condition.\n§L"This thing hasn't been updated for a long time. The system is a little old. It's very troublesome to shut down and restart." Someone said so.§!"
@@ -178,18 +213,3 @@
  ethic_easter.300.d:0 "Will you stay to help us?"
  ethic_easter.300.d.response:0 "This question is certain, whether out of rules or personal willingness, I will stay and help you."
  ethic_easter.300.hire_custom_tooltip:0 "§Y$NAME_Wangfeng$§! joins our empire as a §HLeader§!."
-
- leader_trait_wangfeng_fleet:0 "Fleet Political Commissar"
- leader_trait_wangfeng_fleet_desc:0 "For the commanders of the Red Dawn, the importance of political work outweighs military work."
- leader_trait_wangfeng_fleet_effect:0 "As long as the leader is commanding the fleet, it will bring this effect to the whole country:\n$t$$mod_pop_ethic_socialism_attraction_mult$：§Y+25%§!\n$t$$mod_pop_ethic_militarist_attraction_mult$：§Y+25%§!\nIf the leader enters the territory of any of our enemy countries during a battle, this effect will double that of our enemies."
- modifier_wangfeng:0 "Fleet Political Commissar"
- modifier_wangfeng_desc:0 "Wang Feng's political work inspires our army to devote itself to the cause of the liberation of the Milky Way."
- modifier_wangfeng_enemy:0 "Fleet Political Commissar"
- modifier_wangfeng_enemy_desc:0 "The enemy's political commissar is launching a political offensive against our army to shake the minds of grassroots soldiers."
- leader_trait_wangfeng_ideology:0 "War and Peace"
- leader_trait_wangfeng_ideology_desc:0 "Wang Feng loves peace, but she is well aware that seeking peace through struggle leads to peaceful survival, and seeking peace through compromise leads to peaceful death."
- leader_trait_wangfeng_ideology_effect:0 "Will be provided during peace §Y$mod_pop_ethic_socialism_attraction_mult$§!, in times of war, it increases §Y$mod_pop_ethic_militarist_attraction_mult$§!"
- leader_trait_wangfeng_government:0 "Interim Governor"
- leader_trait_wangfeng_government_desc:0 "In addition to military experience, Wang Feng also has some administrative management experience, and she can shine and shine in our cabinet."
- leader_trait_wangfeng_produce:0 "Chairman of the Military Labor Commission"
- leader_trait_wangfeng_produce_desc:0 "Red Dawn encourages soldiers to participate in production labor, and Wang Feng has brought this tradition to our army."

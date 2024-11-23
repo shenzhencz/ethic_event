@@ -677,6 +677,11 @@ country_event = {
 
 	}
 	option = {
+		name = ethic_easter.151.f
+		response_text = ethic_easter.151.f.response
+		is_dialog_only = yes
+	}
+	option = {
 		trigger = {
 			nor = {
 				has_authority = auth_imperial
