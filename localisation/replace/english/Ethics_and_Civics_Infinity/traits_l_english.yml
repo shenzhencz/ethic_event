@@ -1,0 +1,29 @@
+﻿l_english:
+ trait_red_dawn:0 "§RRed Dawn§!"
+ trait_red_dawn_desc:0 "A species that has implanted the idea of communism in the collective subconscious, the only belief they have since they entered the age of utopianism."
+
+ leader_trait_huazhang:0 "Temporary Political Commissar"
+ leader_trait_huazhang_desc:0 "As the last group of executors of the Red Dawn Civilization Spark Plan, the scientists of the People's Academy of Sciences were urgently granted the highest level operation right of the collective unconscious. As long as the seeds fall into the soil, new forests will absorb nutrients from the ashes and break through the soil, thriving."
+
+ leader_trait_wangfeng_fleet:0 "Fleet Political Commissar"
+ leader_trait_wangfeng_fleet_desc:0 "For the commanders of the Red Dawn, the importance of political work outweighs military work."
+ leader_trait_wangfeng_fleet_effect:0 "As long as the leader is commanding the fleet, it will bring this effect to the whole country:\n$t$$mod_pop_ethic_socialism_attraction_mult$：§Y+25%§!\n$t$$mod_pop_ethic_militarist_attraction_mult$：§Y+25%§!\nIf the leader enters the territory of any of our enemy countries during a battle, this effect will double that of our enemies."
+
+ modifier_wangfeng:0 "Fleet Political Commissar"
+ modifier_wangfeng_desc:0 "Wang Feng's political work inspires our army to devote itself to the cause of the liberation of the Milky Way."
+
+ modifier_wangfeng_enemy:0 "Fleet Political Commissar"
+ modifier_wangfeng_enemy_desc:0 "The enemy's political commissar is launching a political offensive against our army to shake the minds of grassroots soldiers."
+
+ leader_trait_wangfeng_ideology:0 "War and Peace"
+ leader_trait_wangfeng_ideology_desc:0 "Wang Feng loves peace, but she is well aware that seeking peace through struggle leads to peaceful survival, and seeking peace through compromise leads to peaceful death."
+ leader_trait_wangfeng_ideology_effect:0 "Will be provided during peace §Y$mod_pop_ethic_socialism_attraction_mult$§!, in times of war, it increases §Y$mod_pop_ethic_militarist_attraction_mult$§!"
+
+ leader_trait_wangfeng_government:0 "Interim Governor"
+ leader_trait_wangfeng_government_desc:0 "In addition to military experience, Wang Feng also has some administrative management experience, and she can shine and shine in our cabinet."
+
+ leader_trait_wangfeng_produce:0 "Chairman of the Military Labor Commission"
+ leader_trait_wangfeng_produce_desc:0 "Red Dawn encourages soldiers to participate in production labor, and Wang Feng has brought this tradition to our army."
+
+ leader_trait_ultravisionary_socialism:0 "$civic_ultravisionary_socialism$"
+ leader_trait_ultravisionary_socialism_desc:0 "This scientist put the development of science and technology first. He believed that the development of science and technology was a shortcut to communism, so he devoted most of his energy to scientific research."
