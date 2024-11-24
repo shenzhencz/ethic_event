@@ -23,9 +23,7 @@ event = {
         }
         name = ethic_event_notice.0.b
         hidden_effect = {
-            country_event = {
-                id = ethic_event_notice.1
-            }
+            start_game = yes
         }
     }
     option = {

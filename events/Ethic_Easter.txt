@@ -5,15 +5,20 @@ country_event = {
     hide_window = yes
     is_triggered_only = yes 
     trigger = {
-		NOT = { has_global_flag = huazhang_chain_started }
+		NOT = {
+			has_global_flag = huazhang_chain_started
+		}
         is_ai = no
 		is_capitalism = no
-		NOT = { is_country_type = eci_primitive }
+		NOT = {
+			is_country_type = eci_primitive
+		}
     }
     immediate ={
 		capital_scope = {
 			planet_event = { id = ethic_easter.1 days = 1 random = 360 }
 		}
+		set_global_flag = huazhang_chain_started
     }
 }
 
@@ -30,11 +35,6 @@ planet_event = {
 			NOT = { is_country_type = eci_primitive }
 		}
 	}
-
-	immediate = {
-	    set_global_flag = huazhang_chain_started
-	}
-
 	option = {
 		name = ethic_easter.1.a
 		enable_special_project = {

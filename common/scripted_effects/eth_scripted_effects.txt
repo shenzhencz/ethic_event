@@ -385,9 +385,10 @@ generate_huazhang = {
 }
 start_game ={
     add_resource = {
-        minerals = 100
         food = 100
         alloys = 100
         consumer_goods = 100
+        energy = 100
+        minerals = 100
     }
 }
