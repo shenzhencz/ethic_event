@@ -383,3 +383,11 @@ generate_huazhang = {
         establish_communications_no_message = root
     }
 }
+start_game ={
+    add_resource = {
+        minerals = 100
+        food = 100
+        alloys = 100
+        consumer_goods = 100
+    }
+}

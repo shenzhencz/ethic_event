@@ -12,11 +12,25 @@ event = {
         name = ethic_event_notice.0.a
         hidden_effect = {
             set_global_flag = notice_given
+            set_global_flag = starting
         }
     }
     option = {
+        trigger = {
+            not = {
+                has_global_flag = starting
+            }
+        }
         name = ethic_event_notice.0.b
-        custom_tooltip = ethic_event_notice.0.b.news.tooltip
+        hidden_effect = {
+            country_event = {
+                id = ethic_event_notice.1
+            }
+        }
+    }
+    option = {
+        name = ethic_event_notice.0.c
+        custom_tooltip = ethic_event_notice.0.c.news.tooltip
         hidden_effect = {
             country_event = {
                 id = ethic_event_notice.2
@@ -24,8 +38,8 @@ event = {
         }
     }
     option = {
-        name = ethic_event_notice.0.c
-        custom_tooltip = ethic_event_notice.0.c.news.tooltip
+        name = ethic_event_notice.0.d
+        custom_tooltip = ethic_event_notice.0.d.news.tooltip
         hidden_effect = {
             country_event = {
                 id = ethic_event_notice.1

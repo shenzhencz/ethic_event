@@ -16,7 +16,6 @@ on_monthly_pulse_country = {
 		ethic_event_notice.0
 	}
 }
-
 # 尝试为具有自定义外交的国家打开外交视图时触发。
 # Country scope
 # This = target country (player)
