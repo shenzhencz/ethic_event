@@ -16,17 +16,6 @@ event = {
         }
     }
     option = {
-        trigger = {
-            not = {
-                has_global_flag = starting
-            }
-        }
-        name = ethic_event_notice.0.b
-        hidden_effect = {
-            start_game = yes
-        }
-    }
-    option = {
         name = ethic_event_notice.0.c
         custom_tooltip = ethic_event_notice.0.c.news.tooltip
         hidden_effect = {
