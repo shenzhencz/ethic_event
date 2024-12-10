@@ -941,7 +941,6 @@ country_event = { # 王枫
 	is_triggered_only = yes
 
 	picture = GFX_leader_recruitment_bg_legendary_skrand
-	auto_opens = no
 	event_window_type = leader_recruit
 
 	immediate = {
@@ -975,16 +974,6 @@ country_event = { # 王枫
 	picture_event_data = {
 		portrait = event_target:ethic_leader
 		room = ethic_spaceship_room
-	}
-
-	option = {
-		name = DISMISS
-		tag = dismiss_leader
-		hidden_effect = {
-			remove_global_flag = wangfeng # Put this leader back into the pool, so player could still get him
-			ethic_leader_kill_effect = yes
-			set_country_flag = dismissed_wangfeng
-		}
 	}
 	option = {
 		name = ethic_easter.300.a
