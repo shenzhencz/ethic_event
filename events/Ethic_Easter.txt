@@ -704,6 +704,27 @@ country_event = {
 		set_country_flag = ethic_wangming
 	}
 }
+#country_event = {
+#	id = ethic_easter.191
+#	is_triggered_only = yes
+#	hide_window = yes
+#	trigger = {
+#		if = {
+#			limit = {
+#				event_target:Laurel={
+#					leader={
+#						has_leader_flag = huazhang
+#					}
+#				}
+#			}
+#		}
+#	}
+#	immediate = {
+#		event_target:Laurel={
+#			assign_leader = event_target:huazhang
+#		}
+#	}
+#}
 #交堕落的事件链
 country_event = {
 	id = ethic_easter.200
