@@ -1,11 +1,11 @@
 ﻿l_simp_chinese:
- ver:0 "0.3.0"
+ ver:0 "1.0.0"
 
  PRESCRIPTED_ruler_name_humans4: "华章"
  PRESCRIPTED_ruler_name_humans5: "王明"
 
  ethic_event_notice.0.name:0 "Mod提示"
- ethic_event_notice.0.desc:0 "此Mod复现了mod更多思潮与国策：无限（Ethics and Civics Infinity）中被移除的两个领袖。\n\n这两个领袖加上给的舰船在开局是一个非常大的帮助，作者便根据官方发布的老版本恢复了相关事件和设定。\n\n如果需要体验堕落相关事件，开控制台输入ethic_easter.9（需要获得第一个科学家领袖，以及一个$ethic_fanatic_materialist$堕落帝国）\n除此以外，作者还增加了一个代表作者的领袖。\nshenzhencz\n2024-11-16"
+ ethic_event_notice.0.desc:0 "此Mod复现了mod更多思潮与国策：无限（Ethics and Civics Infinity）中被移除的两个领袖。\n\n这两个领袖加上给的舰船在开局是一个非常大的帮助，作者便根据官方发布的老版本恢复了相关事件和设定。\n\n如果需要体验堕落相关事件，开控制台输入ethic_easter.9（需要获得第一个科学家领袖，以及一个$ethic_fanatic_materialist$堕落帝国）\nshenzhencz\n2024-11-16"
  ethic_event_notice.0.a:0 "关闭"
  ethic_event_notice.0.b:0 "给我p社削掉的100资源！"
  ethic_event_notice.0.c:0 "通知"
@@ -19,7 +19,7 @@
  edict_eth_notice2_desc:0 "你可以用它检测星系中是否有$ethic_fanatic_materialist$堕落帝国,并触发相关事件。"
 
  ethic_event_notice.2.name:0 "$ver$通知"
- ethic_event_notice.2.desc:0 "作者大致完成了这个mod的初步完善，并且增加了英语翻译。\n在mod之中，除了被移除的两个领袖外，我还把自己塞了进去\n\n§R特别注意：作者不叫王明，上次有个真的叫王明的同志联系我说把他当成我了！§!\n\nshenzhencz\n\n2024-11-23"
+ ethic_event_notice.2.desc:0 "作者成功完成了这个mod，并添加了几个事件保证可玩性，并且增加了英语翻译。\n\nshenzhencz\n\n2024-11-23"
  ethic_event_notice.2.a:0 "关闭"
 
  red_dawn:0 "§R赤色黎明§!"
@@ -124,9 +124,9 @@
  
  ethic_easter.150.name:0 "发现可疑人物"
  ethic_easter.150.desc:0 "在$PRESCRIPTED_ruler_name_humans4$检查她的$NAME_Laurel$时，她发现了一个昏迷的可疑人物，他的外形奇特，其背上有一个疑似使用了$JUMP_DRIVE_1$的推动装置，推断是在跃迁时意外跃迁到了她的飞船上"
- ethic_easter.150.a:0 "$PRESCRIPTED_ruler_name_humans4$，把他送回[Root.Capital.Getname]上，然后叫醒他。"
+ ethic_easter.150.a:0 "$PRESCRIPTED_ruler_name_humans4$，把他送回[Root.Capital]上，然后叫醒他。"
 
- ethic_easter.151.name:0 "[Root.Capital.Getname]"
+ ethic_easter.151.name:0 "[Root.Capital]"
  ethic_easter.151.desc:0 "你好，[Root.GetSpeciesName]的同志们，我是$PRESCRIPTED_ruler_name_humans5$，来自$NAME_red_dawn$曾经的母星——中央枢纽，隶属于$NAME_red_dawn$的工人研究合作社，是一名研究员。"
  ethic_easter.151.a:0 "$PRESCRIPTED_ruler_name_humans4$，你认识他吗？"
  ethic_easter.151.a.response:0 "<$PRESCRIPTED_ruler_name_humans4$>\n我查一下数据记录……$PRESCRIPTED_ruler_name_humans5$，$NAME_red_dawn$工人研究合作社$JUMP_DRIVE_1$研究办公室研究员。中央对他的评价是这样的：\n“王明同志本身虽然并不擅长科研，但是他有强大的科研组织能力，而且非常具有灵感，经常会给研究工作带来许多帮助。而他优秀的组织才能，甚至可以统治一个国家。\n他曾经参与过跃迁引擎的研究工作，因此对于引擎应该有着一定的了解。”\n<$PRESCRIPTED_ruler_name_humans5$>\n$PRESCRIPTED_ruler_name_humans4$同志，没这么夸张，我只是一个小科学家而已，没有你说的那么好。"
@@ -142,6 +142,14 @@
  ethic_easter.151.f.response:0 "我收到的最后一份信。里头写的是“为共产主义世界的美好而战。”"
  wangming_leader_desc:0 "王明是一个主张远视主义的科学家，灵感丰富而又及其具有组织能力，小能够发展科技，大能够管理国家。他认为，科学技术的发展能够更好的发展社会主义。"
  wangming_leader_catch_phrase:0 "§L“科技是实现共产主义的唯一途径！”§!"
+
+ ethic_easter.192.desc:0"呜啊啊啊啊啊！[Root.GetRulerName]，你怎么把我整死了！\n\n也幸好我有一份我自己的备份，不然对你们和赤色黎明都是严重的损失！\n\n帮忙把这个硬盘送到$NAME_Laurel$上，谢谢！"
+ ethic_easter.192.a:0"好的，$PRESCRIPTED_ruler_name_humans4$女士"
+ ethic_easter.192.b:0"好的，$PRESCRIPTED_ruler_name_humans4$同志"
+ ethic_easter.193.desc:0"呜啊啊啊啊啊！[Root.GetRulerName]，你怎么把$NAME_Laurel$弄坏了！\n\n设计图呢，我记得我还保存着一份呢！\n\n在这里，你赶快再造一艘出来，否则我和你们[Root.GetSpeciesName]没完！"
+ ethic_easter.194.desc:0"呜啊啊啊啊啊！[Root.GetRulerName]，你怎么把我整死了！\n\n还有$NAME_Laurel$，居然也被毁掉了，这对你们和赤色黎明都是严重的损失！\n\n你赶快再造一艘出来，然后帮忙把这个硬盘送到$NAME_Laurel$上，否则我和你们[Root.GetSpeciesName]没完！"
+ ethic_easter.193.a:0"好的，$PRESCRIPTED_ruler_name_humans4$女士，$NAME_Laurel$我们一年就能造好！"
+ ethic_easter.193.b:0"好的，$PRESCRIPTED_ruler_name_humans4$同志，$NAME_Laurel$我们一年就能造好！"
 
  red_dawn_database_boot:0 "数据库开机"
  red_dawn_database_boot_desc:0 "由外星旅者§Y华章§!友情提供的先驱者文明数据库，为了保持其工作状态，需要消耗大量能源。\n§L“这玩意多久没更新了，系统有点老化，关机再开机很麻烦的。”某人如是说。§!"

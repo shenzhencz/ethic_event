@@ -394,28 +394,12 @@ country_event = {
 				}
 				country_event = { id = ethic_easter.300 days = 1800 random = 1800 }
 			}
-			if = {
-				limit = {
-					owner = {
-						or = {
-							and = {
-								has_ethic = ethic_fanatic_socialism
-								NOR = {
-									has_ethic = ethic_fanatic_authoritarian
-									has_valid_civic = civic_characteristic_socialism
-									has_valid_civic = civic_characteristic_socialism_pioneer
-									has_country_flag = ethic_wangming
-								}
-							}
-							has_valid_civic = civic_machine_liberator
-						}
-					}
-				}
-				country_event = { 
-					id = ethic_easter.150 days = 1 random = 359
-				}
-			}	
+            create_reddawn = yes
 			generate_huazhang = yes
+            generate_Laurel = yes
+            event_target:red_dawn_country = {
+                establish_communications_no_message = root
+            }
 			save_global_event_target_as = red_dawn_database_owner
 
 			create_message = {
@@ -704,27 +688,207 @@ country_event = {
 		set_country_flag = ethic_wangming
 	}
 }
-#country_event = {
-#	id = ethic_easter.191
-#	is_triggered_only = yes
-#	hide_window = yes
-#	trigger = {
-#		if = {
-#			limit = {
-#				event_target:Laurel={
-#					leader={
-#						has_leader_flag = huazhang
-#					}
-#				}
-#			}
-#		}
-#	}
-#	immediate = {
-#		event_target:Laurel={
-#			assign_leader = event_target:huazhang
-#		}
-#	}
-#}
+#强制华章回月桂号
+country_event = {
+	id = ethic_easter.191
+	is_triggered_only = yes
+	hide_window = yes
+	trigger = {
+		if = {
+			limit = {
+				not= {
+					event_target:Laurel = {
+						leader = {
+							has_leader_flag = huazhang
+						}
+					}
+				}
+			}
+		}
+	}
+	immediate = {
+		event_target:Laurel={
+			assign_leader = event_target:huazhang
+		}
+	}
+}
+#人没了
+country_event={
+    id=ethic_easter.192
+    is_triggered_only = yes
+    diplomatic = yes
+    desc = ethic_easter.192.desc
+    title = ethic_easter.3.name
+    trigger = {
+        has_country_flag = ethic_huazhang
+        not = {
+            any_owned_leader = {
+                has_leader_flag = huazhang
+            }
+        }
+        any_owned_fleet = {
+            has_fleet_flag = fleet_Laurel
+        }
+        not = {has_global_flag = huazhang_leave}
+    }
+    picture_event_data = {
+        portrait = stardust_huazhang
+        room = "ethic_spaceship_room"
+    }
+    option = {#普通
+        trigger = {
+            owner = {
+                NOR = {
+                    has_ethic = ethic_socialism
+                    has_ethic = ethic_fanatic_socialism
+                }
+            }
+        }
+        name = ethic_easter.192.a
+    }
+    option = {#社会主义
+        trigger = {
+            owner = {
+                OR = {
+                    has_ethic = ethic_socialism
+                    has_ethic = ethic_fanatic_socialism
+                }
+            }
+        }
+        name = ethic_easter.192.b
+    }
+    immediate = {
+        generate_huazhang = yes
+        event_target:Laurel={
+            assign_leader = event_target:huazhang
+        }
+    }
+}
+#船没了
+country_event={
+    id=ethic_easter.193
+    is_triggered_only = yes
+    diplomatic = yes
+    desc = ethic_easter.193.desc
+    title = ethic_easter.3.name
+    trigger = {
+        not = {has_global_flag = huazhang_leave}
+        has_country_flag = ethic_huazhang
+        any_owned_leader = {
+            has_leader_flag = huazhang
+        }
+        not = {
+            any_owned_fleet = {
+                has_fleet_flag = fleet_Laurel
+            }
+        }
+        not = {
+            has_country_flag = building_Laurel
+        }
+    }
+    picture_event_data = {
+        portrait = stardust_huazhang
+        room = "ethic_spaceship_room"
+    }
+    option = {#普通
+        trigger = {
+            owner = {
+                NOR = {
+                    has_ethic = ethic_socialism
+                    has_ethic = ethic_fanatic_socialism
+                }
+            }
+        }
+        name = ethic_easter.193.a
+    }
+    option = {#社会主义
+        trigger = {
+            owner = {
+                OR = {
+                    has_ethic = ethic_socialism
+                    has_ethic = ethic_fanatic_socialism
+                }
+            }
+        }
+        name = ethic_easter.193.b
+    }
+    immediate = {
+        set_country_flag = building_Laurel
+        country_event = {
+            id = ethic_easter.195
+            days = 365
+        }
+    }
+}
+#人和船都没了
+country_event={
+    id=ethic_easter.194
+    is_triggered_only = yes
+    diplomatic = yes
+    desc = ethic_easter.194.desc
+    title = ethic_easter.3.name
+    trigger = {
+        not = {has_global_flag = huazhang_leave}
+        has_country_flag = ethic_huazhang
+        not = {
+            and= {
+                any_owned_leader = {
+                    has_leader_flag = huazhang
+                }
+                any_owned_fleet = {
+                    has_fleet_flag = fleet_Laurel
+                }
+            }
+        }
+        not = {
+            has_country_flag = building_Laurel
+        }
+    }
+    picture_event_data = {
+        portrait = stardust_huazhang
+        room = "ethic_spaceship_room"
+    }
+    option = {#普通
+        trigger = {
+            owner = {
+                NOR = {
+                    has_ethic = ethic_socialism
+                    has_ethic = ethic_fanatic_socialism
+                }
+            }
+        }
+        name = ethic_easter.193.a
+    }
+    option = {#社会主义
+        trigger = {
+            owner = {
+                OR = {
+                    has_ethic = ethic_socialism
+                    has_ethic = ethic_fanatic_socialism
+                }
+            }
+        }
+        name = ethic_easter.193.b
+    }
+    immediate = {
+        set_country_flag = building_Laurel
+        generate_huazhang = yes
+        country_event = {
+            id = ethic_easter.195
+            days = 365
+        }
+    }
+}
+
+country_event={
+    id=ethic_easter.195
+    is_triggered_only = yes
+    hide_window = yes
+    immediate = {
+        generate_Laurel = yes
+        remove_country_flag = building_Laurel
+    }
+}
 #交堕落的事件链
 country_event = {
 	id = ethic_easter.200
@@ -793,6 +957,7 @@ country_event = {
 					delete_fleet = this
 				}
 			}
+            set_global_flag = huazhang_leave
 			save_global_event_target_as = huazhang_rest_area
 		}
 	}
@@ -1093,10 +1258,7 @@ country_event = {
 	}
 
 	immediate = {
-		add_modifier = {
-			modifier = modifier_wangfeng_enemy
-			days = -1
-		}
+		add_modifier = {modifier = modifier_wangfeng_enemy days = -1 }
 	}
 }
 

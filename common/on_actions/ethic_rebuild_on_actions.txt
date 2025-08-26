@@ -6,6 +6,10 @@ on_monthly_pulse_country = {
 		ethic_easter.302
 		ethic_easter.303
 		ethic_easter.304
+		ethic_easter.191
+        ethic_easter.193
+        ethic_easter.192
+        ethic_easter.194
 	}
 }
 #每两年一次的触发器，范围国家

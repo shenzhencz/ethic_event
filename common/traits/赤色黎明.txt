@@ -46,7 +46,6 @@ leader_trait_red_dawn = {
 		leader_scientists_physics_research_produces_add = 3
 		leader_scientists_society_research_produces_add = 3
 		leader_scientists_engineering_research_produces_add = 3
-		mult = trigger:has_skill
 	}
 	triggered_modifier = {
 		potential = {
@@ -68,7 +67,6 @@ leader_trait_red_dawn = {
 	randomized = no
 	ai_weight = 100
 }
-
 leader_trait_huazhang = {
 	force_councilor_trait = yes
 	leader_trait_type = destiny
@@ -91,32 +89,6 @@ leader_trait_huazhang = {
 	randomized = no
 	selectable_weight = @class_trait_weight
 }
-
-leader_trait_governor_NO_0 = {
-	force_councilor_trait = yes
-
-	leader_trait_type = destiny
-	inline_script = {
-		script = traits/ethic_leaders_trait_icon
-		CLASS = scientist
-		ICON = "GFX_leader_trait_huazhang"
-		RARITY = paragon
-		COUNCIL = yes
-		TIER = none
-	}
-	modifier = {
-		planet_jobs_unity_produces_mult = 0.5
-		megastructure_build_speed_mult = 0.1
-		trade_value_mult = -0.1
-		pop_cat_worker_political_power = 1
-		pop_cat_slave_political_power = 1
-	}
-	leader_class = { official }
-	initial = no
-	randomized = no
-	selectable_weight = @class_trait_weight
-}
-
 leader_trait_wangfeng_fleet = {
 	leader_trait_type = destiny
 	inline_script = {
